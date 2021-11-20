@@ -118,405 +118,405 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="gs0Off" xml:space="preserve">
-    <value>0 = Off</value>
+    <value>0 = Вимкнено</value>
   </data>
   <data name="gsAddChannel" xml:space="preserve">
-    <value>Add channel</value>
+    <value>Додати канал</value>
   </data>
   <data name="gsAge" xml:space="preserve">
-    <value>Age</value>
+    <value>Вік</value>
   </data>
   <data name="gsAltitude" xml:space="preserve">
-    <value>Altitude</value>
+    <value>Висоті</value>
   </data>
   <data name="gsAuthourizing" xml:space="preserve">
-    <value>Authorizing</value>
+    <value>Авторизація</value>
   </data>
   <data name="gsCancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Скасувати</value>
   </data>
   <data name="gsCantFind" xml:space="preserve">
-    <value>Can't find</value>
+    <value>Не вдається знайти</value>
   </data>
   <data name="gsCantFindDrive" xml:space="preserve">
-    <value>Can't find drive</value>
+    <value>Не вдається знайти диск</value>
   </data>
   <data name="gsChannels" xml:space="preserve">
-    <value>Channels</value>
+    <value>Канали</value>
   </data>
   <data name="gsClose" xml:space="preserve">
-    <value>Close</value>
+    <value>Закрити</value>
   </data>
   <data name="gsCloseComs" xml:space="preserve">
-    <value>Close communications</value>
+    <value>Закриття зв'язку</value>
   </data>
   <data name="gsCloseIMU" xml:space="preserve">
-    <value>Close IMU communications</value>
+    <value>Закрити зв'язок IMU</value>
   </data>
   <data name="gsCommand" xml:space="preserve">
-    <value>Command</value>
+    <value>Команда</value>
   </data>
   <data name="gsCommunicationsConfig" xml:space="preserve">
-    <value>Communications Configuration</value>
+    <value>Конфігурація зв'язку</value>
   </data>
   <data name="gsConfigureRadio" xml:space="preserve">
-    <value>Configure radio</value>
+    <value>Настроювання радіо</value>
   </data>
   <data name="gsConfirmIP" xml:space="preserve">
-    <value>Confirm IP</value>
+    <value>Підтвердження IP</value>
   </data>
   <data name="gsConnectGPS" xml:space="preserve">
-    <value>Connect GPS</value>
+    <value>Під'єднайте GPS</value>
   </data>
   <data name="gsConnectionProblem" xml:space="preserve">
-    <value>Connection Problem</value>
+    <value>Проблема з підключенням</value>
   </data>
   <data name="gsCriticalSettingsWarning" xml:space="preserve">
-    <value>Critical Settings Warning</value>
+    <value>Попередження про критичні параметри</value>
   </data>
   <data name="gsCurrent" xml:space="preserve">
-    <value>Current</value>
+    <value>Струм</value>
   </data>
   <data name="gsCurrentGPSfix" xml:space="preserve">
-    <value>Current GPS fix</value>
+    <value>Поточне виправлення GPS</value>
   </data>
   <data name="gsDeleteChannel" xml:space="preserve">
-    <value>Delete channel</value>
+    <value>Видалити канал</value>
   </data>
   <data name="gsDeviceManager" xml:space="preserve">
-    <value>Device Manager</value>
+    <value>Диспетчер пристроїв</value>
   </data>
   <data name="gsDistance" xml:space="preserve">
-    <value>Distance</value>
+    <value>Відстань</value>
   </data>
   <data name="gsDoubleCheckSettings" xml:space="preserve">
-    <value>Double check all your settings</value>
+    <value>Двічі перевірте всі налаштування</value>
   </data>
   <data name="gsDriveMessage" xml:space="preserve">
-    <value>Drive Message</value>
+    <value>Повідомлення диска</value>
   </data>
   <data name="gsDriveServer" xml:space="preserve">
-    <value>Drive Server</value>
+    <value>Сервер дисків</value>
   </data>
   <data name="gsDual" xml:space="preserve">
-    <value>Dual</value>
+    <value>Подвійний</value>
   </data>
   <data name="gsEditChannel" xml:space="preserve">
-    <value>Edit channel</value>
+    <value>Редагування каналу</value>
   </data>
   <data name="gsEnterBroadcasterURLorIP" xml:space="preserve">
-    <value>Enter Broadcaster URL or IP</value>
+    <value>Введіть URL-адресу мовника або IP</value>
   </data>
   <data name="gsEnterNewName" xml:space="preserve">
-    <value>Enter New Name</value>
+    <value>Введіть нове ім'я</value>
   </data>
   <data name="gsEnterSomething" xml:space="preserve">
-    <value>Enter something</value>
+    <value>Введіть що-небудь</value>
   </data>
   <data name="gsEnterValue" xml:space="preserve">
-    <value>Enter a Value</value>
+    <value>Введіть значення</value>
   </data>
   <data name="gsError" xml:space="preserve">
-    <value>Error</value>
+    <value>Помилка</value>
   </data>
   <data name="gsErrorOpeningPort" xml:space="preserve">
-    <value>Error opening port</value>
+    <value>Помилка під час відкриття порту</value>
   </data>
   <data name="gsException" xml:space="preserve">
-    <value>Exception</value>
+    <value>Виняток</value>
   </data>
   <data name="gsFixAndResave" xml:space="preserve">
-    <value>Fix the issues and resave the vehicle file</value>
+    <value>Як вирішити проблеми та відновити файл транспортного засобу</value>
   </data>
   <data name="gsFormat" xml:space="preserve">
-    <value>Format</value>
+    <value>Формат</value>
   </data>
   <data name="gsFrequency" xml:space="preserve">
-    <value>Frequency</value>
+    <value>Частота</value>
   </data>
   <data name="gsGetSourceTable" xml:space="preserve">
-    <value>Get Source Table</value>
+    <value>Отримати вихідну таблицю</value>
   </data>
   <data name="gsGPS" xml:space="preserve">
-    <value>Global Positioning System (GPS)</value>
+    <value>Глобальна система позиціонування (GPS)</value>
   </data>
   <data name="gsGPSData" xml:space="preserve">
-    <value>GPS Data</value>
+    <value>Дані GPS</value>
   </data>
   <data name="gsHost" xml:space="preserve">
-    <value>Host</value>
+    <value>Господар</value>
   </data>
   <data name="gsIMU" xml:space="preserve">
-    <value>Inertial measurement unit (IMU)</value>
+    <value>Інерційна одиниця вимірювання (ІМУ)</value>
   </data>
   <data name="gsInvalid" xml:space="preserve">
-    <value>Invalid</value>
+    <value>Інвалід</value>
   </data>
   <data name="gsInvalidIP" xml:space="preserve">
-    <value>Invalid IP Address</value>
+    <value>Неприпустима IP-адреса</value>
   </data>
   <data name="gsInvalidName" xml:space="preserve">
-    <value>Invalid Name</value>
+    <value>Неприпустиме ім'я</value>
   </data>
   <data name="gsKeyboard" xml:space="preserve">
-    <value>Keyboard</value>
+    <value>Клавіатура</value>
   </data>
   <data name="gsLatitude" xml:space="preserve">
-    <value>Latitude</value>
+    <value>Широти</value>
   </data>
   <data name="gsListening" xml:space="preserve">
-    <value>Listening</value>
+    <value>Слухає</value>
   </data>
   <data name="gsLoad" xml:space="preserve">
-    <value>Load</value>
+    <value>Навантаження</value>
   </data>
   <data name="gsLoadComs" xml:space="preserve">
-    <value>Load coms</value>
+    <value>Завантажити коми</value>
   </data>
   <data name="gsLogNEMA" xml:space="preserve">
     <value>Log NEMA</value>
   </data>
   <data name="gsLongitude" xml:space="preserve">
-    <value>Longitude</value>
+    <value>Довгота</value>
   </data>
   <data name="gsMachine" xml:space="preserve">
-    <value>Machine</value>
+    <value>Машина</value>
   </data>
   <data name="gsManualfix" xml:space="preserve">
-    <value>Manual fix</value>
+    <value>Виправлення вручну</value>
   </data>
   <data name="gsMaximumExceeded" xml:space="preserve">
-    <value>Maximum has been exceeded</value>
+    <value>Перевищено максимум</value>
   </data>
   <data name="gsMinimumExceeded" xml:space="preserve">
-    <value>Minimum has been exceeded</value>
+    <value>Перевищено мінімум</value>
   </data>
   <data name="gsModuleAddress" xml:space="preserve">
-    <value>Module Address and Ports</value>
+    <value>Адреса модуля та порти</value>
   </data>
   <data name="gsModulePort" xml:space="preserve">
-    <value>Module Port</value>
+    <value>Порт модуля</value>
   </data>
   <data name="gsModuleSendInfo" xml:space="preserve">
-    <value>All modules send to 9999</value>
+    <value>Всі модулі відправити на 9999</value>
   </data>
   <data name="gsModuleUseInfo" xml:space="preserve">
-    <value>All modules use 8888</value>
+    <value>Всі модулі використовують 8888</value>
   </data>
   <data name="gsMount" xml:space="preserve">
-    <value>Mount</value>
+    <value>Гора</value>
   </data>
   <data name="gsMountPoint" xml:space="preserve">
-    <value>Mount Point</value>
+    <value>Точка монтування</value>
   </data>
   <data name="gsName" xml:space="preserve">
-    <value>Name</value>
+    <value>Ім'я</value>
   </data>
   <data name="gsNetwork" xml:space="preserve">
-    <value>Network</value>
+    <value>Мережа</value>
   </data>
   <data name="gsNetworking" xml:space="preserve">
-    <value>Networking</value>
+    <value>Мереж</value>
   </data>
   <data name="gsNoChannel" xml:space="preserve">
-    <value>No channel</value>
+    <value>Немає каналу</value>
   </data>
   <data name="gsNoFileFound" xml:space="preserve">
-    <value>No File Found</value>
+    <value>Файл не знайдено</value>
   </data>
   <data name="gsNoIPLocated" xml:space="preserve">
-    <value>No IP located</value>
+    <value>Ip-адреса не розташована</value>
   </data>
   <data name="gsNone" xml:space="preserve">
-    <value>None</value>
+    <value>Ніхто</value>
   </data>
   <data name="gsNoSourceData" xml:space="preserve">
-    <value>No source data</value>
+    <value>Немає вихідних даних</value>
   </data>
   <data name="gsNotConnectingToCaster" xml:space="preserve">
-    <value>Not connecting to caster</value>
+    <value>Не підключення до качалки</value>
   </data>
   <data name="gsNotFilled" xml:space="preserve">
-    <value>is not filled in</value>
+    <value>не заповнюється</value>
   </data>
   <data name="gsNotSaved" xml:space="preserve">
-    <value>Not saved</value>
+    <value>Не збережено</value>
   </data>
   <data name="gsNotValidNumber" xml:space="preserve">
-    <value>is not a valid number</value>
+    <value>неприпустимий номер</value>
   </data>
   <data name="gsNTRIPClientNotConfig" xml:space="preserve">
-    <value>NTRIP Client not set up</value>
+    <value>Клієнт NTRIP не настроєно</value>
   </data>
   <data name="gsNTRIPClientSettings" xml:space="preserve">
-    <value>NTRIP Client Settings</value>
+    <value>Параметри клієнта NTRIP</value>
   </data>
   <data name="gsNTRIPEnabled" xml:space="preserve">
-    <value>NTRIP also enabled</value>
+    <value>NTRIP також включений</value>
   </data>
   <data name="gsNTRIPEnabledDisabling" xml:space="preserve">
-    <value>NTRIP is also enabled, disabling it</value>
+    <value>NTRIP також включений, відключивши його</value>
   </data>
   <data name="gsOff" xml:space="preserve">
-    <value>Off</value>
+    <value>Вимкнено</value>
   </data>
   <data name="gsOffline" xml:space="preserve">
-    <value>Offline</value>
+    <value>Автономних</value>
   </data>
   <data name="gsOnlyTCPPort" xml:space="preserve">
-    <value>Only TCP:Port</value>
+    <value>Лише TCP:Port</value>
   </data>
   <data name="gsOpenComs" xml:space="preserve">
-    <value>Open communications</value>
+    <value>Відкриті комунікації</value>
   </data>
   <data name="gsOverwrite" xml:space="preserve">
-    <value>Overwrite</value>
+    <value>Перезаписати</value>
   </data>
   <data name="gsPassword" xml:space="preserve">
-    <value>Password</value>
+    <value>Пароль</value>
   </data>
   <data name="gsPosition" xml:space="preserve">
-    <value>Position</value>
+    <value>Позиція</value>
   </data>
   <data name="gsQuality" xml:space="preserve">
-    <value>Quality</value>
+    <value>Якість</value>
   </data>
   <data name="gsRadio" xml:space="preserve">
-    <value>Radio</value>
+    <value>Радіо</value>
   </data>
   <data name="gsRadioAlsoEnabled" xml:space="preserve">
-    <value>Radio also enabled</value>
+    <value>Радіо також увімкнено</value>
   </data>
   <data name="gsRadioBeingDisabled" xml:space="preserve">
-    <value>Radio is also enabled, disabling it</value>
+    <value>Радіо також увімкнено, вимкнувши його</value>
   </data>
   <data name="gsRadioChannel" xml:space="preserve">
-    <value>Radio channel</value>
+    <value>Радіоканал</value>
   </data>
   <data name="gsRadioOnNoChannel" xml:space="preserve">
-    <value>Radio is set to on but no channel is selected</value>
+    <value>Радіо встановлено, але канал не вибрано</value>
   </data>
   <data name="gsRadioSetting" xml:space="preserve">
-    <value>Radio Settings</value>
+    <value>Параметри радіо</value>
   </data>
   <data name="gsRescanPorts" xml:space="preserve">
-    <value>Rescan ports</value>
+    <value>Пересканувати порти</value>
   </data>
   <data name="gsResponse" xml:space="preserve">
-    <value>Response</value>
+    <value>Відповідь</value>
   </data>
   <data name="gsRestartWarning" xml:space="preserve">
-    <value>** You must RESTART for any changes to take effect!</value>
+    <value>** Ви повинні перезапустити для будь-яких змін, щоб в силу!</value>
   </data>
   <data name="gsRoll" xml:space="preserve">
-    <value>Roll</value>
+    <value>Рулон</value>
   </data>
   <data name="gsRunAgOpenGPS" xml:space="preserve">
-    <value>Run AgOpenGPS</value>
+    <value>Запустити agOpenGPS</value>
   </data>
   <data name="gsSave" xml:space="preserve">
-    <value>Save</value>
+    <value>Рятувати</value>
   </data>
   <data name="gsSaveAndReturn" xml:space="preserve">
-    <value>Save And Return</value>
+    <value>Зберегти та повернути</value>
   </data>
   <data name="gsSaveAs" xml:space="preserve">
-    <value>Save As:</value>
+    <value>Зберегти як:</value>
   </data>
   <data name="gsSaveComms" xml:space="preserve">
-    <value>Save Comms</value>
+    <value>Зберегти коми</value>
   </data>
   <data name="gsSaveComs" xml:space="preserve">
-    <value>Save coms</value>
+    <value>Зберегти коми</value>
   </data>
   <data name="gsSaveOneFirst" xml:space="preserve">
-    <value>Save one first</value>
+    <value>Спочатку зберегти один</value>
   </data>
   <data name="gsSendCommand" xml:space="preserve">
-    <value>Send command</value>
+    <value>Команда "Надіслати"</value>
   </data>
   <data name="gsSendGGA" xml:space="preserve">
-    <value>Send GGA</value>
+    <value>Надіслати GGA</value>
   </data>
   <data name="gsSendtoManualFix" xml:space="preserve">
-    <value>Send to Manual Fix</value>
+    <value>Надіслати вручну виправлення</value>
   </data>
   <data name="gsSeriousProblem" xml:space="preserve">
-    <value>Serious settings problem with - </value>
+    <value>Серйозна проблема з налаштуваннями з - </value>
   </data>
   <data name="gsSet0Serial" xml:space="preserve">
-    <value>*Set to 0 for Serial</value>
+    <value>* Встановити 0 для серійного</value>
   </data>
   <data name="gsSetChannel" xml:space="preserve">
-    <value>Set channel</value>
+    <value>Встановити канал</value>
   </data>
   <data name="gsSetDefaultIP" xml:space="preserve">
-    <value>IP set to </value>
+    <value>IP-налаштування на </value>
   </data>
   <data name="gsSetNtrip" xml:space="preserve">
-    <value>Set NTRIP</value>
+    <value>Встановити NTRIP</value>
   </data>
   <data name="gsSetPassword" xml:space="preserve">
-    <value>Set password</value>
+    <value>Встановити пароль</value>
   </data>
   <data name="gsSetUsername" xml:space="preserve">
-    <value>Set username</value>
+    <value>Встановити ім'я користувача</value>
   </data>
   <data name="gsSocketException" xml:space="preserve">
-    <value>Socket Exception</value>
+    <value>Виняток сокета</value>
   </data>
   <data name="gsSource" xml:space="preserve">
-    <value>Source</value>
+    <value>Джерело</value>
   </data>
   <data name="gsSourceData" xml:space="preserve">
-    <value>Source Data</value>
+    <value>Вихідні дані</value>
   </data>
   <data name="gsSourceTableError" xml:space="preserve">
-    <value>Get source table error</value>
+    <value>Отримання помилки вихідної таблиці</value>
   </data>
   <data name="gsSpeed" xml:space="preserve">
-    <value>Speed</value>
+    <value>Швидкість</value>
   </data>
   <data name="gsStartStop" xml:space="preserve">
-    <value>Start/Stop</value>
+    <value>Початок/зупинка</value>
   </data>
   <data name="gsSteering" xml:space="preserve">
-    <value>Steering</value>
+    <value>Рульове</value>
   </data>
   <data name="gsStopped" xml:space="preserve">
-    <value>Stopped</value>
+    <value>Зупинився</value>
   </data>
   <data name="gsSystemData" xml:space="preserve">
-    <value>System Data</value>
+    <value>Системні дані</value>
   </data>
   <data name="gsThisComputer" xml:space="preserve">
-    <value>This Computer</value>
+    <value>Цей комп'ютер</value>
   </data>
   <data name="gsTurnOnNTRIP" xml:space="preserve">
-    <value>Turn on NTRIP</value>
+    <value>Увімкнення NTRIP</value>
   </data>
   <data name="gsUDPEthernetConfig" xml:space="preserve">
-    <value>UDP Ethernet Configuration</value>
+    <value>Конфігурація UDP Ethernet</value>
   </data>
   <data name="gsUDPOn" xml:space="preserve">
-    <value>UDP On</value>
+    <value>UDP на</value>
   </data>
   <data name="gsUseGPSFix" xml:space="preserve">
-    <value>Use GPS fix</value>
+    <value>Використання виправлення GPS</value>
   </data>
   <data name="gsUseManualFix" xml:space="preserve">
-    <value>Use manual fix</value>
+    <value>Використання виправлення вручну</value>
   </data>
   <data name="gsUsername" xml:space="preserve">
-    <value>Username</value>
+    <value>Ім'я користувача</value>
   </data>
   <data name="gsWaitGPS" xml:space="preserve">
-    <value>Wait GPS</value>
+    <value>Зачекайте GPS</value>
   </data>
   <data name="gsWaiting" xml:space="preserve">
-    <value>Waiting</value>
+    <value>Очікування</value>
   </data>
   <data name="gsWatch" xml:space="preserve">
-    <value>Watch</value>
+    <value>Дивитися</value>
   </data>
 </root>

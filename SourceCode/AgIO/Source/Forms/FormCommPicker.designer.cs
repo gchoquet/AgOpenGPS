@@ -55,7 +55,7 @@
             this.lblLast.Name = "lblLast";
             this.lblLast.Size = new System.Drawing.Size(307, 23);
             this.lblLast.TabIndex = 213;
-            this.lblLast.Text = "Communications Configuration";
+            this.lblLast.Text = gStr.gsCommunicationsConfig;
             this.lblLast.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FormEnvPicker
@@ -70,7 +70,7 @@
             this.Name = "FormEnvPicker";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Load Comm";
+            this.Text = gStr.gsLoadComs;
             this.Load += new System.EventHandler(this.FormCommPicker_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

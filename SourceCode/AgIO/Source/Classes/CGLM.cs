@@ -10,9 +10,9 @@ namespace AgIO
             if (value < numericUpDown.Minimum)
             {
                 value = numericUpDown.Minimum;
-                MessageBox.Show("Serious Settings Problem with - " + numericUpDown.Name
-                    + " \n\rMinimum has been exceeded\n\rDouble check ALL your Settings and \n\rFix it and Resave Vehicle File",
-                "Critical Settings Warning",
+                MessageBox.Show(gStr.gsSeriousProblem + numericUpDown.Name
+                    + " \n\r" + gStr.gsMinimumExceeded + "\n\r" + gStr.gsDoubleCheckSettings + "\n\r" + gStr.gsFixAndResave,
+                gStr.gsCriticalSettingsWarning,
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Error);
                 return true;
@@ -20,9 +20,9 @@ namespace AgIO
             else if (value > numericUpDown.Maximum)
             {
                 value = numericUpDown.Maximum;
-                MessageBox.Show("Serious Settings Problem with - " + numericUpDown.Name
-                    + " \n\rMaximum has been exceeded\n\rDouble check ALL your Settings and \n\rFix it and Resave Vehicle File",
-                "Critical Settings Warning",
+                MessageBox.Show(gStr.gsSeriousProblem + numericUpDown.Name
+                    + " \n\r" + gStr.gsMaximumExceeded + "\n\r" + gStr.gsDoubleCheckSettings + "\n\r" + gStr.gsFixAndResave,
+                gStr.gsCriticalSettingsWarning,
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Error);
                 return true;
@@ -41,9 +41,9 @@ namespace AgIO
             if (value < (double)numericUpDown.Minimum)
             {
                 value = (double)numericUpDown.Minimum / 2.4;
-                MessageBox.Show("Serious Settings Problem with - " + numericUpDown.Name
-                    + " \n\rMinimum has been exceeded\n\rDouble check ALL your Settings and \n\rFix it and Resave Vehicle File",
-                "Critical Settings Warning",
+                MessageBox.Show(gStr.gsSeriousProblem + numericUpDown.Name
+                    + " \n\r" + gStr.gsMinimumExceeded + "\n\r" + gStr.gsDoubleCheckSettings + " \n\r" + gStr.gsFixAndResave,
+                gStr.gsCriticalSettingsWarning,
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Error);
                 isChanged = true;
@@ -51,9 +51,9 @@ namespace AgIO
             else if (value > (double)numericUpDown.Maximum)
             {
                 value = (double)numericUpDown.Maximum / 2.6;
-                MessageBox.Show("Serious Settings Problem with - " + numericUpDown.Name
-                    + " \n\rMaximum has been exceeded\n\rDouble check ALL your Settings and \n\rFix it and Resave Vehicle File",
-                "Critical Settings Warning",
+                MessageBox.Show(gStr.gsSeriousProblem + numericUpDown.Name
+                    + " \n\r" + gStr.gsMaximumExceeded + "\n\r" + gStr.gsDoubleCheckSettings + "\n\r" + gStr.gsFixAndResave,
+                gStr.gsCriticalSettingsWarning,
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Error);
                 isChanged = true;

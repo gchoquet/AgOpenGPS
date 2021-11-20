@@ -118,405 +118,405 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="gs0Off" xml:space="preserve">
-    <value>0 = Off</value>
+    <value>0 = Fra</value>
   </data>
   <data name="gsAddChannel" xml:space="preserve">
-    <value>Add channel</value>
+    <value>Tilføj kanal</value>
   </data>
   <data name="gsAge" xml:space="preserve">
-    <value>Age</value>
+    <value>Alder</value>
   </data>
   <data name="gsAltitude" xml:space="preserve">
-    <value>Altitude</value>
+    <value>Højde</value>
   </data>
   <data name="gsAuthourizing" xml:space="preserve">
-    <value>Authorizing</value>
+    <value>Bemyndigelse</value>
   </data>
   <data name="gsCancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Aflyse</value>
   </data>
   <data name="gsCantFind" xml:space="preserve">
-    <value>Can't find</value>
+    <value>Kan ikke finde</value>
   </data>
   <data name="gsCantFindDrive" xml:space="preserve">
-    <value>Can't find drive</value>
+    <value>Drev kan ikke findes</value>
   </data>
   <data name="gsChannels" xml:space="preserve">
-    <value>Channels</value>
+    <value>Kanaler</value>
   </data>
   <data name="gsClose" xml:space="preserve">
-    <value>Close</value>
+    <value>Lukke</value>
   </data>
   <data name="gsCloseComs" xml:space="preserve">
-    <value>Close communications</value>
+    <value>Luk kommunikation</value>
   </data>
   <data name="gsCloseIMU" xml:space="preserve">
-    <value>Close IMU communications</value>
+    <value>Luk IMU-kommunikation</value>
   </data>
   <data name="gsCommand" xml:space="preserve">
-    <value>Command</value>
+    <value>Kommando</value>
   </data>
   <data name="gsCommunicationsConfig" xml:space="preserve">
-    <value>Communications Configuration</value>
+    <value>Konfiguration af kommunikation</value>
   </data>
   <data name="gsConfigureRadio" xml:space="preserve">
-    <value>Configure radio</value>
+    <value>Konfigurer radio</value>
   </data>
   <data name="gsConfirmIP" xml:space="preserve">
-    <value>Confirm IP</value>
+    <value>Bekræft IP</value>
   </data>
   <data name="gsConnectGPS" xml:space="preserve">
-    <value>Connect GPS</value>
+    <value>Tilslut GPS</value>
   </data>
   <data name="gsConnectionProblem" xml:space="preserve">
-    <value>Connection Problem</value>
+    <value>Forbindelsesproblem</value>
   </data>
   <data name="gsCriticalSettingsWarning" xml:space="preserve">
-    <value>Critical Settings Warning</value>
+    <value>Advarsel om kritiske indstillinger</value>
   </data>
   <data name="gsCurrent" xml:space="preserve">
-    <value>Current</value>
+    <value>Strøm</value>
   </data>
   <data name="gsCurrentGPSfix" xml:space="preserve">
-    <value>Current GPS fix</value>
+    <value>Aktuel GPS-rettelse</value>
   </data>
   <data name="gsDeleteChannel" xml:space="preserve">
-    <value>Delete channel</value>
+    <value>Slet kanal</value>
   </data>
   <data name="gsDeviceManager" xml:space="preserve">
-    <value>Device Manager</value>
+    <value>Enhedshåndtering</value>
   </data>
   <data name="gsDistance" xml:space="preserve">
-    <value>Distance</value>
+    <value>Afstand</value>
   </data>
   <data name="gsDoubleCheckSettings" xml:space="preserve">
-    <value>Double check all your settings</value>
+    <value>Dobbelttjek alle dine indstillinger</value>
   </data>
   <data name="gsDriveMessage" xml:space="preserve">
-    <value>Drive Message</value>
+    <value>Drevmeddelelse</value>
   </data>
   <data name="gsDriveServer" xml:space="preserve">
-    <value>Drive Server</value>
+    <value>Drevserver</value>
   </data>
   <data name="gsDual" xml:space="preserve">
-    <value>Dual</value>
+    <value>Dobbelt</value>
   </data>
   <data name="gsEditChannel" xml:space="preserve">
-    <value>Edit channel</value>
+    <value>Rediger kanal</value>
   </data>
   <data name="gsEnterBroadcasterURLorIP" xml:space="preserve">
-    <value>Enter Broadcaster URL or IP</value>
+    <value>Angiv URL-adresse eller IP til tv-station</value>
   </data>
   <data name="gsEnterNewName" xml:space="preserve">
-    <value>Enter New Name</value>
+    <value>Angiv nyt navn</value>
   </data>
   <data name="gsEnterSomething" xml:space="preserve">
-    <value>Enter something</value>
+    <value>Indtast noget</value>
   </data>
   <data name="gsEnterValue" xml:space="preserve">
-    <value>Enter a Value</value>
+    <value>Angiv en værdi</value>
   </data>
   <data name="gsError" xml:space="preserve">
-    <value>Error</value>
+    <value>Fejl</value>
   </data>
   <data name="gsErrorOpeningPort" xml:space="preserve">
-    <value>Error opening port</value>
+    <value>Der opstod en fejl under åbning af porten</value>
   </data>
   <data name="gsException" xml:space="preserve">
-    <value>Exception</value>
+    <value>Undtagelse</value>
   </data>
   <data name="gsFixAndResave" xml:space="preserve">
-    <value>Fix the issues and resave the vehicle file</value>
+    <value>Løs problemerne, og sy køretøjsfilen igen</value>
   </data>
   <data name="gsFormat" xml:space="preserve">
     <value>Format</value>
   </data>
   <data name="gsFrequency" xml:space="preserve">
-    <value>Frequency</value>
+    <value>Frekvens</value>
   </data>
   <data name="gsGetSourceTable" xml:space="preserve">
-    <value>Get Source Table</value>
+    <value>Hent kildetabel</value>
   </data>
   <data name="gsGPS" xml:space="preserve">
-    <value>Global Positioning System (GPS)</value>
+    <value>GPS (Global Positioning System)</value>
   </data>
   <data name="gsGPSData" xml:space="preserve">
-    <value>GPS Data</value>
+    <value>GPS-data</value>
   </data>
   <data name="gsHost" xml:space="preserve">
-    <value>Host</value>
+    <value>Vært</value>
   </data>
   <data name="gsIMU" xml:space="preserve">
-    <value>Inertial measurement unit (IMU)</value>
+    <value>Inertial måleenhed (IMU)</value>
   </data>
   <data name="gsInvalid" xml:space="preserve">
-    <value>Invalid</value>
+    <value>Ugyldig</value>
   </data>
   <data name="gsInvalidIP" xml:space="preserve">
-    <value>Invalid IP Address</value>
+    <value>Ugyldig IP-adresse</value>
   </data>
   <data name="gsInvalidName" xml:space="preserve">
-    <value>Invalid Name</value>
+    <value>Ugyldigt navn</value>
   </data>
   <data name="gsKeyboard" xml:space="preserve">
-    <value>Keyboard</value>
+    <value>Tastatur</value>
   </data>
   <data name="gsLatitude" xml:space="preserve">
-    <value>Latitude</value>
+    <value>Breddegrad</value>
   </data>
   <data name="gsListening" xml:space="preserve">
-    <value>Listening</value>
+    <value>Lytte</value>
   </data>
   <data name="gsLoad" xml:space="preserve">
-    <value>Load</value>
+    <value>Læs</value>
   </data>
   <data name="gsLoadComs" xml:space="preserve">
-    <value>Load coms</value>
+    <value>Indlæs coms</value>
   </data>
   <data name="gsLogNEMA" xml:space="preserve">
     <value>Log NEMA</value>
   </data>
   <data name="gsLongitude" xml:space="preserve">
-    <value>Longitude</value>
+    <value>Længdegrad</value>
   </data>
   <data name="gsMachine" xml:space="preserve">
-    <value>Machine</value>
+    <value>Maskine</value>
   </data>
   <data name="gsManualfix" xml:space="preserve">
-    <value>Manual fix</value>
+    <value>Manuel rettelse</value>
   </data>
   <data name="gsMaximumExceeded" xml:space="preserve">
-    <value>Maximum has been exceeded</value>
+    <value>Maksimum er overskredet</value>
   </data>
   <data name="gsMinimumExceeded" xml:space="preserve">
-    <value>Minimum has been exceeded</value>
+    <value>Minimum er overskredet</value>
   </data>
   <data name="gsModuleAddress" xml:space="preserve">
-    <value>Module Address and Ports</value>
+    <value>Moduladresse og -porte</value>
   </data>
   <data name="gsModulePort" xml:space="preserve">
-    <value>Module Port</value>
+    <value>Modulport</value>
   </data>
   <data name="gsModuleSendInfo" xml:space="preserve">
-    <value>All modules send to 9999</value>
+    <value>Alle moduler sendes til 9999</value>
   </data>
   <data name="gsModuleUseInfo" xml:space="preserve">
-    <value>All modules use 8888</value>
+    <value>Alle moduler bruger 8888</value>
   </data>
   <data name="gsMount" xml:space="preserve">
-    <value>Mount</value>
+    <value>Montere</value>
   </data>
   <data name="gsMountPoint" xml:space="preserve">
-    <value>Mount Point</value>
+    <value>Tilslutningspunkt</value>
   </data>
   <data name="gsName" xml:space="preserve">
-    <value>Name</value>
+    <value>Navn</value>
   </data>
   <data name="gsNetwork" xml:space="preserve">
-    <value>Network</value>
+    <value>Netværk</value>
   </data>
   <data name="gsNetworking" xml:space="preserve">
-    <value>Networking</value>
+    <value>Netværk</value>
   </data>
   <data name="gsNoChannel" xml:space="preserve">
-    <value>No channel</value>
+    <value>Ingen kanal</value>
   </data>
   <data name="gsNoFileFound" xml:space="preserve">
-    <value>No File Found</value>
+    <value>Der blev ikke fundet nogen fil</value>
   </data>
   <data name="gsNoIPLocated" xml:space="preserve">
-    <value>No IP located</value>
+    <value>Der er ikke fundet nogen IP</value>
   </data>
   <data name="gsNone" xml:space="preserve">
-    <value>None</value>
+    <value>Ingen</value>
   </data>
   <data name="gsNoSourceData" xml:space="preserve">
-    <value>No source data</value>
+    <value>Ingen kildedata</value>
   </data>
   <data name="gsNotConnectingToCaster" xml:space="preserve">
-    <value>Not connecting to caster</value>
+    <value>Opretter ikke forbindelse til hjul</value>
   </data>
   <data name="gsNotFilled" xml:space="preserve">
-    <value>is not filled in</value>
+    <value>er ikke udfyldt</value>
   </data>
   <data name="gsNotSaved" xml:space="preserve">
-    <value>Not saved</value>
+    <value>Ikke gemt</value>
   </data>
   <data name="gsNotValidNumber" xml:space="preserve">
-    <value>is not a valid number</value>
+    <value>er ikke et gyldigt tal</value>
   </data>
   <data name="gsNTRIPClientNotConfig" xml:space="preserve">
-    <value>NTRIP Client not set up</value>
+    <value>NTRIP-klient er ikke konfigureret</value>
   </data>
   <data name="gsNTRIPClientSettings" xml:space="preserve">
-    <value>NTRIP Client Settings</value>
+    <value>Indstillinger for NTRIP-klient</value>
   </data>
   <data name="gsNTRIPEnabled" xml:space="preserve">
-    <value>NTRIP also enabled</value>
+    <value>NTRIP aktiverede også</value>
   </data>
   <data name="gsNTRIPEnabledDisabling" xml:space="preserve">
-    <value>NTRIP is also enabled, disabling it</value>
+    <value>NTRIP er også aktiveret, og deaktiverer det</value>
   </data>
   <data name="gsOff" xml:space="preserve">
-    <value>Off</value>
+    <value>Af</value>
   </data>
   <data name="gsOffline" xml:space="preserve">
     <value>Offline</value>
   </data>
   <data name="gsOnlyTCPPort" xml:space="preserve">
-    <value>Only TCP:Port</value>
+    <value>Kun TCP:Port</value>
   </data>
   <data name="gsOpenComs" xml:space="preserve">
-    <value>Open communications</value>
+    <value>Åben kommunikation</value>
   </data>
   <data name="gsOverwrite" xml:space="preserve">
-    <value>Overwrite</value>
+    <value>Overskrive</value>
   </data>
   <data name="gsPassword" xml:space="preserve">
-    <value>Password</value>
+    <value>Kodeord</value>
   </data>
   <data name="gsPosition" xml:space="preserve">
     <value>Position</value>
   </data>
   <data name="gsQuality" xml:space="preserve">
-    <value>Quality</value>
+    <value>Kvalitet</value>
   </data>
   <data name="gsRadio" xml:space="preserve">
     <value>Radio</value>
   </data>
   <data name="gsRadioAlsoEnabled" xml:space="preserve">
-    <value>Radio also enabled</value>
+    <value>Radio aktiveret også</value>
   </data>
   <data name="gsRadioBeingDisabled" xml:space="preserve">
-    <value>Radio is also enabled, disabling it</value>
+    <value>Radio er også aktiveret, deaktivering af den</value>
   </data>
   <data name="gsRadioChannel" xml:space="preserve">
-    <value>Radio channel</value>
+    <value>Radiokanal</value>
   </data>
   <data name="gsRadioOnNoChannel" xml:space="preserve">
-    <value>Radio is set to on but no channel is selected</value>
+    <value>Radioen er indstillet til til, men der er ikke valgt nogen kanal</value>
   </data>
   <data name="gsRadioSetting" xml:space="preserve">
-    <value>Radio Settings</value>
+    <value>Radioindstillinger</value>
   </data>
   <data name="gsRescanPorts" xml:space="preserve">
-    <value>Rescan ports</value>
+    <value>Scanne porte igen</value>
   </data>
   <data name="gsResponse" xml:space="preserve">
-    <value>Response</value>
+    <value>Svar</value>
   </data>
   <data name="gsRestartWarning" xml:space="preserve">
-    <value>** You must RESTART for any changes to take effect!</value>
+    <value>** Du skal genstarte for eventuelle ændringer til at træde i kraft!</value>
   </data>
   <data name="gsRoll" xml:space="preserve">
-    <value>Roll</value>
+    <value>Rulle</value>
   </data>
   <data name="gsRunAgOpenGPS" xml:space="preserve">
-    <value>Run AgOpenGPS</value>
+    <value>Kør AgOpenGPS</value>
   </data>
   <data name="gsSave" xml:space="preserve">
-    <value>Save</value>
+    <value>Spare</value>
   </data>
   <data name="gsSaveAndReturn" xml:space="preserve">
-    <value>Save And Return</value>
+    <value>Gem og vend tilbage</value>
   </data>
   <data name="gsSaveAs" xml:space="preserve">
-    <value>Save As:</value>
+    <value>Gem som:</value>
   </data>
   <data name="gsSaveComms" xml:space="preserve">
-    <value>Save Comms</value>
+    <value>Gem kommunikation</value>
   </data>
   <data name="gsSaveComs" xml:space="preserve">
-    <value>Save coms</value>
+    <value>Gem coms</value>
   </data>
   <data name="gsSaveOneFirst" xml:space="preserve">
-    <value>Save one first</value>
+    <value>Gem en først</value>
   </data>
   <data name="gsSendCommand" xml:space="preserve">
-    <value>Send command</value>
+    <value>Kommandoen Send</value>
   </data>
   <data name="gsSendGGA" xml:space="preserve">
     <value>Send GGA</value>
   </data>
   <data name="gsSendtoManualFix" xml:space="preserve">
-    <value>Send to Manual Fix</value>
+    <value>Send til manuel rettelse</value>
   </data>
   <data name="gsSeriousProblem" xml:space="preserve">
-    <value>Serious settings problem with - </value>
+    <value>Alvorlige indstillinger problem med - </value>
   </data>
   <data name="gsSet0Serial" xml:space="preserve">
-    <value>*Set to 0 for Serial</value>
+    <value>*Angiv til 0 for seriel</value>
   </data>
   <data name="gsSetChannel" xml:space="preserve">
-    <value>Set channel</value>
+    <value>Angiv kanal</value>
   </data>
   <data name="gsSetDefaultIP" xml:space="preserve">
-    <value>IP set to </value>
+    <value>IP indstillet til </value>
   </data>
   <data name="gsSetNtrip" xml:space="preserve">
-    <value>Set NTRIP</value>
+    <value>Angiv NTRIP</value>
   </data>
   <data name="gsSetPassword" xml:space="preserve">
-    <value>Set password</value>
+    <value>Angive adgangskode</value>
   </data>
   <data name="gsSetUsername" xml:space="preserve">
-    <value>Set username</value>
+    <value>Angiv brugernavn</value>
   </data>
   <data name="gsSocketException" xml:space="preserve">
-    <value>Socket Exception</value>
+    <value>Undtagelse for socket</value>
   </data>
   <data name="gsSource" xml:space="preserve">
-    <value>Source</value>
+    <value>Kilde</value>
   </data>
   <data name="gsSourceData" xml:space="preserve">
-    <value>Source Data</value>
+    <value>Kildedata</value>
   </data>
   <data name="gsSourceTableError" xml:space="preserve">
-    <value>Get source table error</value>
+    <value>Hent kildetabelfejl</value>
   </data>
   <data name="gsSpeed" xml:space="preserve">
-    <value>Speed</value>
+    <value>Fart</value>
   </data>
   <data name="gsStartStop" xml:space="preserve">
-    <value>Start/Stop</value>
+    <value>Start/stop</value>
   </data>
   <data name="gsSteering" xml:space="preserve">
-    <value>Steering</value>
+    <value>Styretøj</value>
   </data>
   <data name="gsStopped" xml:space="preserve">
-    <value>Stopped</value>
+    <value>Stoppet</value>
   </data>
   <data name="gsSystemData" xml:space="preserve">
-    <value>System Data</value>
+    <value>Systemdata</value>
   </data>
   <data name="gsThisComputer" xml:space="preserve">
-    <value>This Computer</value>
+    <value>Denne computer</value>
   </data>
   <data name="gsTurnOnNTRIP" xml:space="preserve">
-    <value>Turn on NTRIP</value>
+    <value>Slå NTRIP til</value>
   </data>
   <data name="gsUDPEthernetConfig" xml:space="preserve">
-    <value>UDP Ethernet Configuration</value>
+    <value>KONFIGURATION AF UDP Ethernet</value>
   </data>
   <data name="gsUDPOn" xml:space="preserve">
-    <value>UDP On</value>
+    <value>UDP på</value>
   </data>
   <data name="gsUseGPSFix" xml:space="preserve">
-    <value>Use GPS fix</value>
+    <value>Brug GPS-rettelse</value>
   </data>
   <data name="gsUseManualFix" xml:space="preserve">
-    <value>Use manual fix</value>
+    <value>Brug manuel rettelse</value>
   </data>
   <data name="gsUsername" xml:space="preserve">
-    <value>Username</value>
+    <value>Brugernavn</value>
   </data>
   <data name="gsWaitGPS" xml:space="preserve">
-    <value>Wait GPS</value>
+    <value>Vent GPS</value>
   </data>
   <data name="gsWaiting" xml:space="preserve">
-    <value>Waiting</value>
+    <value>Venter</value>
   </data>
   <data name="gsWatch" xml:space="preserve">
-    <value>Watch</value>
+    <value>Ur</value>
   </data>
 </root>

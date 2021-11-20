@@ -4,6 +4,8 @@ using System.Diagnostics;
 using System.IO;
 using System.Net.Sockets;
 using System.Text;
+using System.Resources;
+using System.Reflection;
 using System.Windows.Forms;
 
 namespace AgIO
@@ -16,9 +18,17 @@ namespace AgIO
         [System.Runtime.InteropServices.DllImport("User32.dll")]
         private static extern bool ShowWindow(IntPtr hWind, int nCmdShow);
 
+        /// <summary>
+        /// Resource manager for gloabal strings
+        /// </summary>
+        public ResourceManager _rm;
+
         public FormLoop()
         {
             InitializeComponent();
+
+            //resource for gloabal language strings
+            _rm = new ResourceManager("AgIO.gStr", Assembly.GetExecutingAssembly());
         }
 
         public StringBuilder logNMEASentence = new StringBuilder();
@@ -35,6 +45,23 @@ namespace AgIO
         //First run
         private void FormLoop_Load(object sender, EventArgs e)
         {
+            // Create the ToolTip and associate with the form container.
+            ToolTip toolTip1 = new ToolTip();
+            // Set tooltip default parameters
+            toolTip1.AutoPopDelay = 5000;
+            toolTip1.InitialDelay = 1000;
+            toolTip1.ReshowDelay = 500;
+            toolTip1.ShowAlways = false;
+            toolTip1.Active = true;
+
+            // set tooltip values on related controls
+            toolTip1.SetToolTip(this.btnNTRIP, gStr.gsSetNtrip);
+            toolTip1.SetToolTip(this.btnRadio, gStr.gsConfigureRadio);
+            toolTip1.SetToolTip(this.btnRunAOG, gStr.gsRunAgOpenGPS);
+            toolTip1.SetToolTip(this.btnStartStop, gStr.gsStartStop);
+            toolTip1.SetToolTip(this.btnExit, gStr.gsClose);
+            toolTip1.SetToolTip(this.btnRescanPorts, gStr.gsRescanPorts);
+
             if (Settings.Default.setF_workingDirectory == "Default")
                 baseDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\AgOpenGPS\\";
             else baseDirectory = Settings.Default.setF_workingDirectory + "\\AgOpenGPS\\";
@@ -107,7 +134,7 @@ namespace AgIO
 
             if (ports.Length == 0)
             {
-                listBox1.Items.Add("None");
+                listBox1.Items.Add(gStr.gsNone);
             }
             else
             {
@@ -138,7 +165,7 @@ namespace AgIO
 
             if (ports.Length == 0)
             {
-                listBox1.Items.Add("None");
+                listBox1.Items.Add(gStr.gsNone);
                 return;
             }
             else
@@ -273,7 +300,7 @@ namespace AgIO
 
         public void ConfigureNTRIP()
         {
-            lblWatch.Text = "Wait GPS";
+            lblWatch.Text = gStr.gsWaitGPS;
 
             //start NTRIP if required
             isNTRIP_RequiredOn = Settings.Default.setNTRIP_isOn;
@@ -287,22 +314,22 @@ namespace AgIO
 
             if (isNTRIP_RequiredOn || isRadio_RequiredOn)
             {
-                btnStartStopNtrip.Visible = true;
-                btnStartStopNtrip.Visible = true;
+                btnStartStop.Visible = true;
+                btnStartStop.Visible = true;
                 lblWatch.Visible = true;
                 lblNTRIPBytes.Visible = true;
                 lblBytes.Visible = true;
             }
             else
             {
-                btnStartStopNtrip.Visible = false;
-                btnStartStopNtrip.Visible = false;
+                btnStartStop.Visible = false;
+                btnStartStop.Visible = false;
                 lblWatch.Visible = false;
                 lblNTRIPBytes.Visible = false;
                 lblBytes.Visible = false;
             }
 
-            btnStartStopNtrip.Text = "Off";
+            btnStartStop.Text = gStr.gsOff;
         }
 
         private void uDPToolStripMenuItem_Click(object sender, EventArgs e)
@@ -355,7 +382,7 @@ namespace AgIO
                 DirectoryInfo di = new DirectoryInfo(Application.StartupPath);
                 string strPath = di.ToString();
                 strPath += "\\AgDiag.exe";
-                //TimedMessageBox(8000, "No File Found", strPath);
+                //TimedMessageBox(8000, gStr.gsNoFileFound, strPath);
 
                 try
                 {
@@ -370,7 +397,7 @@ namespace AgIO
                 }
                 catch
                 {
-                    TimedMessageBox(2000, "No File Found", "Can't Find AgDiag");
+                    TimedMessageBox(2000, gStr.gsNoFileFound, gStr.gsCantFind + " AgDiag");
                 }
             }
             else

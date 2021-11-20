@@ -729,6 +729,7 @@
       <LastGenOutput>Vehicle.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
+    <None Include="ResourceTracker.xlsb" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">

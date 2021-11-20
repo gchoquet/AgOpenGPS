@@ -29,7 +29,7 @@ namespace AgIO
             {
                 DialogResult = DialogResult.Ignore;
                 Close();
-                FormTimedMessage form = new FormTimedMessage(2000, "Non Saved", "Save one First");
+                FormTimedMessage form = new FormTimedMessage(2000, gStr.gsNotSaved, gStr.gsSaveOneFirst);
                 form.Show();
             }
 

@@ -45,7 +45,7 @@ namespace AgIO
         public bool isRunGGAInterval = false;
 
         public bool isRadio_RequiredOn = false;
-        internal SerialPort spRadio = new SerialPort("Radio", 9600, Parity.None, 8, StopBits.One);
+        internal SerialPort spRadio = new SerialPort(gStr.gsRadio, 9600, Parity.None, 8, StopBits.One);
 
         private void NTRIPtick(object o, EventArgs e)
         {

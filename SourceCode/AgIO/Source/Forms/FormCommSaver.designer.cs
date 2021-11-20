@@ -32,8 +32,8 @@
             this.lblLast = new System.Windows.Forms.Label();
             this.tboxName = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.labelEnterName = new System.Windows.Forms.Label();
+            this.labelSaveAs = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cboxEnv
@@ -58,7 +58,7 @@
             this.lblLast.Name = "lblLast";
             this.lblLast.Size = new System.Drawing.Size(307, 23);
             this.lblLast.TabIndex = 213;
-            this.lblLast.Text = "Communications Configuration";
+            this.lblLast.Text = gStr.gsCommunicationsConfig;
             this.lblLast.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tboxName
@@ -83,48 +83,49 @@
             this.btnSave.Size = new System.Drawing.Size(127, 71);
             this.btnSave.TabIndex = 215;
             this.btnSave.UseVisualStyleBackColor = true;
+            
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // label1
+            // labelEnterName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(15, 173);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(178, 23);
-            this.label1.TabIndex = 216;
-            this.label1.Text = "Enter New Name:";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.labelEnterName.AutoSize = true;
+            this.labelEnterName.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelEnterName.Location = new System.Drawing.Point(15, 173);
+            this.labelEnterName.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.labelEnterName.Name = "labelEnterName";
+            this.labelEnterName.Size = new System.Drawing.Size(178, 23);
+            this.labelEnterName.TabIndex = 216;
+            this.labelEnterName.Text = gStr.gsEnterNewName;
+            this.labelEnterName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label2
+            // labelSaveAs
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(15, 55);
-            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 23);
-            this.label2.TabIndex = 217;
-            this.label2.Text = "Save As:";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.labelSaveAs.AutoSize = true;
+            this.labelSaveAs.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSaveAs.Location = new System.Drawing.Point(15, 55);
+            this.labelSaveAs.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.labelSaveAs.Name = "labelSaveAs";
+            this.labelSaveAs.Size = new System.Drawing.Size(91, 23);
+            this.labelSaveAs.TabIndex = 217;
+            this.labelSaveAs.Text = gStr.gsSaveAs;
+            this.labelSaveAs.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // FormEnvSaver
+            // FormCommSaver
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(572, 250);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelSaveAs);
+            this.Controls.Add(this.labelEnterName);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.tboxName);
             this.Controls.Add(this.lblLast);
             this.Controls.Add(this.cboxEnv);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Name = "FormEnvSaver";
+            this.Name = "FormCommSaver";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Save Comm";
+            this.Text = gStr.gsSaveComs;
             this.Load += new System.EventHandler(this.FormCommSaver_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -136,7 +137,7 @@
         private System.Windows.Forms.Label lblLast;
         private System.Windows.Forms.TextBox tboxName;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelEnterName;
+        private System.Windows.Forms.Label labelSaveAs;
     }
 }

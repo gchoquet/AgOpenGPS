@@ -67,7 +67,7 @@ namespace AgIO
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnRadio = new System.Windows.Forms.Button();
             this.cboxLogNMEA = new System.Windows.Forms.CheckBox();
-            this.btnStartStopNtrip = new System.Windows.Forms.Button();
+            this.btnStartStop = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnNTRIP = new System.Windows.Forms.Button();
             this.btnRunAOG = new System.Windows.Forms.Button();
@@ -154,7 +154,7 @@ namespace AgIO
             this.lblWatch.Name = "lblWatch";
             this.lblWatch.Size = new System.Drawing.Size(50, 16);
             this.lblWatch.TabIndex = 146;
-            this.lblWatch.Text = "Watch";
+            this.lblWatch.Text = gStr.gsWatch;
             // 
             // lblNTRIPBytes
             // 
@@ -433,7 +433,7 @@ namespace AgIO
             this.toolStripGPSData.Image = global::AgIO.Properties.Resources.B_GPS;
             this.toolStripGPSData.Name = "toolStripGPSData";
             this.toolStripGPSData.Size = new System.Drawing.Size(276, 70);
-            this.toolStripGPSData.Text = "GPS Data";
+            this.toolStripGPSData.Text =gStr.gsGPSData;
             this.toolStripGPSData.Click += new System.EventHandler(this.toolStripGPSData_Click);
             // 
             // deviceManagerToolStripMenuItem
@@ -442,7 +442,7 @@ namespace AgIO
             this.deviceManagerToolStripMenuItem.Image = global::AgIO.Properties.Resources.DeviceManager;
             this.deviceManagerToolStripMenuItem.Name = "deviceManagerToolStripMenuItem";
             this.deviceManagerToolStripMenuItem.Size = new System.Drawing.Size(276, 70);
-            this.deviceManagerToolStripMenuItem.Text = "Device Manager";
+            this.deviceManagerToolStripMenuItem.Text = gStr.gsDeviceManager;
             this.deviceManagerToolStripMenuItem.Click += new System.EventHandler(this.deviceManagerToolStripMenuItem_Click);
             // 
             // toolStripAgDiag
@@ -460,7 +460,7 @@ namespace AgIO
             this.saveToolStrip.Image = global::AgIO.Properties.Resources.VehFileSave;
             this.saveToolStrip.Name = "saveToolStrip";
             this.saveToolStrip.Size = new System.Drawing.Size(276, 70);
-            this.saveToolStrip.Text = "Save";
+            this.saveToolStrip.Text = gStr.gsSave;
             this.saveToolStrip.Click += new System.EventHandler(this.saveToolStrip_Click);
             // 
             // loadToolStrip
@@ -469,7 +469,7 @@ namespace AgIO
             this.loadToolStrip.Image = global::AgIO.Properties.Resources.VehFileLoad;
             this.loadToolStrip.Name = "loadToolStrip";
             this.loadToolStrip.Size = new System.Drawing.Size(276, 70);
-            this.loadToolStrip.Text = "Load";
+            this.loadToolStrip.Text = gStr.gsLoad;
             this.loadToolStrip.Click += new System.EventHandler(this.loadToolStrip_Click);
             // 
             // uDPToolStripMenuItem
@@ -498,7 +498,7 @@ namespace AgIO
             this.panel1.BackColor = System.Drawing.Color.Gainsboro;
             this.panel1.Controls.Add(this.btnRadio);
             this.panel1.Controls.Add(this.cboxLogNMEA);
-            this.panel1.Controls.Add(this.btnStartStopNtrip);
+            this.panel1.Controls.Add(this.btnStartStop);
             this.panel1.Controls.Add(this.listBox1);
             this.panel1.Controls.Add(this.lblFromGPS);
             this.panel1.Controls.Add(this.btnExit);
@@ -573,29 +573,29 @@ namespace AgIO
             this.cboxLogNMEA.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.cboxLogNMEA.Size = new System.Drawing.Size(90, 30);
             this.cboxLogNMEA.TabIndex = 461;
-            this.cboxLogNMEA.Text = "Log NMEA";
+            this.cboxLogNMEA.Text = gStr.gsLogNEMA;
             this.cboxLogNMEA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.cboxLogNMEA.UseVisualStyleBackColor = false;
             this.cboxLogNMEA.CheckedChanged += new System.EventHandler(this.cboxLogNMEA_CheckedChanged);
             // 
-            // btnStartStopNtrip
+            // btnStartStop
             // 
-            this.btnStartStopNtrip.BackColor = System.Drawing.Color.Transparent;
-            this.btnStartStopNtrip.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
-            this.btnStartStopNtrip.FlatAppearance.BorderSize = 0;
-            this.btnStartStopNtrip.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStartStopNtrip.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStartStopNtrip.ForeColor = System.Drawing.Color.Black;
-            this.btnStartStopNtrip.Image = global::AgIO.Properties.Resources.NtripBlank;
-            this.btnStartStopNtrip.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnStartStopNtrip.Location = new System.Drawing.Point(6, 110);
-            this.btnStartStopNtrip.Margin = new System.Windows.Forms.Padding(4);
-            this.btnStartStopNtrip.Name = "btnStartStopNtrip";
-            this.btnStartStopNtrip.Size = new System.Drawing.Size(97, 46);
-            this.btnStartStopNtrip.TabIndex = 147;
-            this.btnStartStopNtrip.Text = "StartStop";
-            this.btnStartStopNtrip.UseVisualStyleBackColor = false;
-            this.btnStartStopNtrip.Click += new System.EventHandler(this.btnStartStopNtrip_Click);
+            this.btnStartStop.BackColor = System.Drawing.Color.Transparent;
+            this.btnStartStop.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnStartStop.FlatAppearance.BorderSize = 0;
+            this.btnStartStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStartStop.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStartStop.ForeColor = System.Drawing.Color.Black;
+            this.btnStartStop.Image = global::AgIO.Properties.Resources.NtripBlank;
+            this.btnStartStop.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnStartStop.Location = new System.Drawing.Point(6, 110);
+            this.btnStartStop.Margin = new System.Windows.Forms.Padding(4);
+            this.btnStartStop.Name = "btnStartStop";
+            this.btnStartStop.Size = new System.Drawing.Size(97, 46);
+            this.btnStartStop.TabIndex = 147;
+            this.btnStartStop.Text = gStr.gsStartStop;
+            this.btnStartStop.UseVisualStyleBackColor = false;
+            this.btnStartStop.Click += new System.EventHandler(this.btnStartStopNtrip_Click);
             // 
             // btnExit
             // 
@@ -841,7 +841,7 @@ namespace AgIO
         private System.Windows.Forms.Label lblCurrentLat;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblWatch;
-        private System.Windows.Forms.Button btnStartStopNtrip;
+        private System.Windows.Forms.Button btnStartStop;
         private System.Windows.Forms.Label lblNTRIPBytes;
         private System.Windows.Forms.Label lblBytes;
         private System.Windows.Forms.Label lblToAOG;

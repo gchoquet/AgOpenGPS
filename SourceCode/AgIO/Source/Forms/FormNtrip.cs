@@ -52,6 +52,19 @@ namespace AgIO
 
         private void FormNtrip_Load(object sender, EventArgs e)
         {
+            // Create the ToolTip and associate with the form container.
+            ToolTip toolTip1 = new ToolTip();
+            // Set tooltip default parameters
+            toolTip1.AutoPopDelay = 5000;
+            toolTip1.InitialDelay = 1000;
+            toolTip1.ReshowDelay = 500;
+            toolTip1.ShowAlways = false;
+            toolTip1.Active = true;
+
+            // set tooltip values on related controls
+            toolTip1.SetToolTip(this.btnPassPassword, gStr.gsSetPassword);
+            toolTip1.SetToolTip(this.btnPassUsername, gStr.gsSetUsername);
+
             string hostName = Dns.GetHostName(); // Retrieve the Name of HOST
             tboxHostName.Text = hostName;
 
@@ -79,8 +92,8 @@ namespace AgIO
 
             checkBoxusetcp.Checked = Properties.Settings.Default.setNTRIP_isTCP;
 
-            if (Properties.Settings.Default.setNTRIP_isGGAManual) cboxGGAManual.Text = "Use Manual Fix";
-            else cboxGGAManual.Text = "Use GPS Fix";
+            if (Properties.Settings.Default.setNTRIP_isGGAManual) cboxGGAManual.Text = gStr.gsUseManualFix;
+            else cboxGGAManual.Text = gStr.gsUseGPSFix;
 
             if (Properties.Settings.Default.setNTRIP_isHTTP10) cboxHTTP.Text = "1.0";
             else cboxHTTP.Text = "1.1";
@@ -115,7 +128,7 @@ namespace AgIO
             }
             catch (Exception)
             {
-                mf.TimedMessageBox(1500, "No IP Located", "Can't Find: " + actualIP);
+                mf.TimedMessageBox(1500, gStr.gsNoIPLocated, gStr.gsCantFind + ": " + actualIP);
             }
         }
 
@@ -157,7 +170,7 @@ namespace AgIO
             {
                 tboxCasterIP.Text = "127.0.0.1";
                 tboxCasterIP.Focus();
-                mf.TimedMessageBox(2000, "Invalid IP Address", "Set to Default Local 127.0.0.1");
+                mf.TimedMessageBox(2000, gStr.gsInvalidIP, gStr.gsSetDefaultIP + " 127.0.0.1");
             }
         }
 
@@ -177,13 +190,13 @@ namespace AgIO
             Properties.Settings.Default.setNTRIP_manualLon = (double)nudLongitude.Value;
 
             Properties.Settings.Default.setNTRIP_casterURL = tboxEnterURL.Text;
-            Properties.Settings.Default.setNTRIP_isGGAManual = cboxGGAManual.Text == "Use Manual Fix";
+            Properties.Settings.Default.setNTRIP_isGGAManual = cboxGGAManual.Text == gStr.gsUseManualFix;
             Properties.Settings.Default.setNTRIP_isHTTP10 = cboxHTTP.Text == "1.0";
             Properties.Settings.Default.setNTRIP_isTCP = checkBoxusetcp.Checked;
 
             if (Properties.Settings.Default.setNTRIP_isOn && Properties.Settings.Default.setRadio_isOn)
             {
-                mf.TimedMessageBox(2000, "Radio also enabled", "Radio is also enabled, diabling it");
+                mf.TimedMessageBox(2000, gStr.gsRadioAlsoEnabled , gStr.gsRadioBeingDisabled);
                 Properties.Settings.Default.setRadio_isOn = false;
             }
 
@@ -262,13 +275,13 @@ namespace AgIO
 
             catch (SocketException)
             {
-                mf.TimedMessageBox(2000, "Socket Exception", "Invalid IP:Port");
+                mf.TimedMessageBox(2000,gStr.gsSocketException, gStr.gsInvalidIP + ":Port");
                 return;
             }
 
             catch (Exception)
             {
-                mf.TimedMessageBox(2000, "Exception", "Get Source Table Error");
+                mf.TimedMessageBox(2000, gStr.gsException,gStr.gsSourceTableError );
                 return;
             }
 
@@ -282,7 +295,7 @@ namespace AgIO
             }
             else
             {
-                mf.TimedMessageBox(2000, "Error", "No Source Data");
+                mf.TimedMessageBox(2000, gStr.gsError,gStr.gsNoSourceData);
             }
 
             // Console.WriteLine(page);

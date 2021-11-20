@@ -61,11 +61,443 @@ namespace AgIO {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Authourizing.
+        ///   Looks up a localized string similar to 0 = Off.
+        /// </summary>
+        internal static string gs0Off {
+            get {
+                return ResourceManager.GetString("gs0Off", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add channel.
+        /// </summary>
+        internal static string gsAddChannel {
+            get {
+                return ResourceManager.GetString("gsAddChannel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Age.
+        /// </summary>
+        internal static string gsAge {
+            get {
+                return ResourceManager.GetString("gsAge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Altitude.
+        /// </summary>
+        internal static string gsAltitude {
+            get {
+                return ResourceManager.GetString("gsAltitude", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Authorizing.
         /// </summary>
         internal static string gsAuthourizing {
             get {
                 return ResourceManager.GetString("gsAuthourizing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cancel.
+        /// </summary>
+        internal static string gsCancel {
+            get {
+                return ResourceManager.GetString("gsCancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Can&apos;t find.
+        /// </summary>
+        internal static string gsCantFind {
+            get {
+                return ResourceManager.GetString("gsCantFind", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Can&apos;t find drive.
+        /// </summary>
+        internal static string gsCantFindDrive {
+            get {
+                return ResourceManager.GetString("gsCantFindDrive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Channels.
+        /// </summary>
+        internal static string gsChannels {
+            get {
+                return ResourceManager.GetString("gsChannels", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Close.
+        /// </summary>
+        internal static string gsClose {
+            get {
+                return ResourceManager.GetString("gsClose", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Close communications.
+        /// </summary>
+        internal static string gsCloseComs {
+            get {
+                return ResourceManager.GetString("gsCloseComs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Close IMU communications.
+        /// </summary>
+        internal static string gsCloseIMU {
+            get {
+                return ResourceManager.GetString("gsCloseIMU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Command.
+        /// </summary>
+        internal static string gsCommand {
+            get {
+                return ResourceManager.GetString("gsCommand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Communications Configuration.
+        /// </summary>
+        internal static string gsCommunicationsConfig {
+            get {
+                return ResourceManager.GetString("gsCommunicationsConfig", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure radio.
+        /// </summary>
+        internal static string gsConfigureRadio {
+            get {
+                return ResourceManager.GetString("gsConfigureRadio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Confirm IP.
+        /// </summary>
+        internal static string gsConfirmIP {
+            get {
+                return ResourceManager.GetString("gsConfirmIP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Connect GPS.
+        /// </summary>
+        internal static string gsConnectGPS {
+            get {
+                return ResourceManager.GetString("gsConnectGPS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Connection Problem.
+        /// </summary>
+        internal static string gsConnectionProblem {
+            get {
+                return ResourceManager.GetString("gsConnectionProblem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Critical Settings Warning.
+        /// </summary>
+        internal static string gsCriticalSettingsWarning {
+            get {
+                return ResourceManager.GetString("gsCriticalSettingsWarning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current.
+        /// </summary>
+        internal static string gsCurrent {
+            get {
+                return ResourceManager.GetString("gsCurrent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current GPS fix.
+        /// </summary>
+        internal static string gsCurrentGPSfix {
+            get {
+                return ResourceManager.GetString("gsCurrentGPSfix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete channel.
+        /// </summary>
+        internal static string gsDeleteChannel {
+            get {
+                return ResourceManager.GetString("gsDeleteChannel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Device Manager.
+        /// </summary>
+        internal static string gsDeviceManager {
+            get {
+                return ResourceManager.GetString("gsDeviceManager", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Distance.
+        /// </summary>
+        internal static string gsDistance {
+            get {
+                return ResourceManager.GetString("gsDistance", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Double check all your settings.
+        /// </summary>
+        internal static string gsDoubleCheckSettings {
+            get {
+                return ResourceManager.GetString("gsDoubleCheckSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Drive Message.
+        /// </summary>
+        internal static string gsDriveMessage {
+            get {
+                return ResourceManager.GetString("gsDriveMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Drive Server.
+        /// </summary>
+        internal static string gsDriveServer {
+            get {
+                return ResourceManager.GetString("gsDriveServer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dual.
+        /// </summary>
+        internal static string gsDual {
+            get {
+                return ResourceManager.GetString("gsDual", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit channel.
+        /// </summary>
+        internal static string gsEditChannel {
+            get {
+                return ResourceManager.GetString("gsEditChannel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter Broadcaster URL or IP.
+        /// </summary>
+        internal static string gsEnterBroadcasterURLorIP {
+            get {
+                return ResourceManager.GetString("gsEnterBroadcasterURLorIP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter New Name.
+        /// </summary>
+        internal static string gsEnterNewName {
+            get {
+                return ResourceManager.GetString("gsEnterNewName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter something.
+        /// </summary>
+        internal static string gsEnterSomething {
+            get {
+                return ResourceManager.GetString("gsEnterSomething", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter a Value.
+        /// </summary>
+        internal static string gsEnterValue {
+            get {
+                return ResourceManager.GetString("gsEnterValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error.
+        /// </summary>
+        internal static string gsError {
+            get {
+                return ResourceManager.GetString("gsError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error opening port.
+        /// </summary>
+        internal static string gsErrorOpeningPort {
+            get {
+                return ResourceManager.GetString("gsErrorOpeningPort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exception.
+        /// </summary>
+        internal static string gsException {
+            get {
+                return ResourceManager.GetString("gsException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fix the issues and resave the vehicle file.
+        /// </summary>
+        internal static string gsFixAndResave {
+            get {
+                return ResourceManager.GetString("gsFixAndResave", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Format.
+        /// </summary>
+        internal static string gsFormat {
+            get {
+                return ResourceManager.GetString("gsFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Frequency.
+        /// </summary>
+        internal static string gsFrequency {
+            get {
+                return ResourceManager.GetString("gsFrequency", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Get Source Table.
+        /// </summary>
+        internal static string gsGetSourceTable {
+            get {
+                return ResourceManager.GetString("gsGetSourceTable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Global Positioning System (GPS).
+        /// </summary>
+        internal static string gsGPS {
+            get {
+                return ResourceManager.GetString("gsGPS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to GPS Data.
+        /// </summary>
+        internal static string gsGPSData {
+            get {
+                return ResourceManager.GetString("gsGPSData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Host.
+        /// </summary>
+        internal static string gsHost {
+            get {
+                return ResourceManager.GetString("gsHost", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Inertial measurement unit (IMU).
+        /// </summary>
+        internal static string gsIMU {
+            get {
+                return ResourceManager.GetString("gsIMU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid.
+        /// </summary>
+        internal static string gsInvalid {
+            get {
+                return ResourceManager.GetString("gsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid IP Address.
+        /// </summary>
+        internal static string gsInvalidIP {
+            get {
+                return ResourceManager.GetString("gsInvalidIP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid Name.
+        /// </summary>
+        internal static string gsInvalidName {
+            get {
+                return ResourceManager.GetString("gsInvalidName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Keyboard.
+        /// </summary>
+        internal static string gsKeyboard {
+            get {
+                return ResourceManager.GetString("gsKeyboard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Latitude.
+        /// </summary>
+        internal static string gsLatitude {
+            get {
+                return ResourceManager.GetString("gsLatitude", resourceCulture);
             }
         }
         
@@ -79,11 +511,452 @@ namespace AgIO {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to NTRIP.
+        ///   Looks up a localized string similar to Load.
         /// </summary>
-        internal static string gsNTRIP {
+        internal static string gsLoad {
             get {
-                return ResourceManager.GetString("gsNTRIP", resourceCulture);
+                return ResourceManager.GetString("gsLoad", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Load coms.
+        /// </summary>
+        internal static string gsLoadComs {
+            get {
+                return ResourceManager.GetString("gsLoadComs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Log NEMA.
+        /// </summary>
+        internal static string gsLogNEMA {
+            get {
+                return ResourceManager.GetString("gsLogNEMA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Longitude.
+        /// </summary>
+        internal static string gsLongitude {
+            get {
+                return ResourceManager.GetString("gsLongitude", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Machine.
+        /// </summary>
+        internal static string gsMachine {
+            get {
+                return ResourceManager.GetString("gsMachine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Manual fix.
+        /// </summary>
+        internal static string gsManualfix {
+            get {
+                return ResourceManager.GetString("gsManualfix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Maximum has been exceeded.
+        /// </summary>
+        internal static string gsMaximumExceeded {
+            get {
+                return ResourceManager.GetString("gsMaximumExceeded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minimum has been exceeded.
+        /// </summary>
+        internal static string gsMinimumExceeded {
+            get {
+                return ResourceManager.GetString("gsMinimumExceeded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Module Address and Ports.
+        /// </summary>
+        internal static string gsModuleAddress {
+            get {
+                return ResourceManager.GetString("gsModuleAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Module Port.
+        /// </summary>
+        internal static string gsModulePort {
+            get {
+                return ResourceManager.GetString("gsModulePort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All modules send to 9999.
+        /// </summary>
+        internal static string gsModuleSendInfo {
+            get {
+                return ResourceManager.GetString("gsModuleSendInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All modules use 8888.
+        /// </summary>
+        internal static string gsModuleUseInfo {
+            get {
+                return ResourceManager.GetString("gsModuleUseInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mount.
+        /// </summary>
+        internal static string gsMount {
+            get {
+                return ResourceManager.GetString("gsMount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mount Point.
+        /// </summary>
+        internal static string gsMountPoint {
+            get {
+                return ResourceManager.GetString("gsMountPoint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        internal static string gsName {
+            get {
+                return ResourceManager.GetString("gsName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Network.
+        /// </summary>
+        internal static string gsNetwork {
+            get {
+                return ResourceManager.GetString("gsNetwork", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Networking.
+        /// </summary>
+        internal static string gsNetworking {
+            get {
+                return ResourceManager.GetString("gsNetworking", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No channel.
+        /// </summary>
+        internal static string gsNoChannel {
+            get {
+                return ResourceManager.GetString("gsNoChannel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No File Found.
+        /// </summary>
+        internal static string gsNoFileFound {
+            get {
+                return ResourceManager.GetString("gsNoFileFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No IP located.
+        /// </summary>
+        internal static string gsNoIPLocated {
+            get {
+                return ResourceManager.GetString("gsNoIPLocated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to None.
+        /// </summary>
+        internal static string gsNone {
+            get {
+                return ResourceManager.GetString("gsNone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No source data.
+        /// </summary>
+        internal static string gsNoSourceData {
+            get {
+                return ResourceManager.GetString("gsNoSourceData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not connecting to caster.
+        /// </summary>
+        internal static string gsNotConnectingToCaster {
+            get {
+                return ResourceManager.GetString("gsNotConnectingToCaster", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to is not filled in.
+        /// </summary>
+        internal static string gsNotFilled {
+            get {
+                return ResourceManager.GetString("gsNotFilled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not saved.
+        /// </summary>
+        internal static string gsNotSaved {
+            get {
+                return ResourceManager.GetString("gsNotSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to is not a valid number.
+        /// </summary>
+        internal static string gsNotValidNumber {
+            get {
+                return ResourceManager.GetString("gsNotValidNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NTRIP Client not set up.
+        /// </summary>
+        internal static string gsNTRIPClientNotConfig {
+            get {
+                return ResourceManager.GetString("gsNTRIPClientNotConfig", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NTRIP Client Settings.
+        /// </summary>
+        internal static string gsNTRIPClientSettings {
+            get {
+                return ResourceManager.GetString("gsNTRIPClientSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NTRIP also enabled.
+        /// </summary>
+        internal static string gsNTRIPEnabled {
+            get {
+                return ResourceManager.GetString("gsNTRIPEnabled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NTRIP is also enabled, disabling it.
+        /// </summary>
+        internal static string gsNTRIPEnabledDisabling {
+            get {
+                return ResourceManager.GetString("gsNTRIPEnabledDisabling", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Off.
+        /// </summary>
+        internal static string gsOff {
+            get {
+                return ResourceManager.GetString("gsOff", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Offline.
+        /// </summary>
+        internal static string gsOffline {
+            get {
+                return ResourceManager.GetString("gsOffline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Only TCP:Port.
+        /// </summary>
+        internal static string gsOnlyTCPPort {
+            get {
+                return ResourceManager.GetString("gsOnlyTCPPort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open communications.
+        /// </summary>
+        internal static string gsOpenComs {
+            get {
+                return ResourceManager.GetString("gsOpenComs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Overwrite.
+        /// </summary>
+        internal static string gsOverwrite {
+            get {
+                return ResourceManager.GetString("gsOverwrite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password.
+        /// </summary>
+        internal static string gsPassword {
+            get {
+                return ResourceManager.GetString("gsPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Position.
+        /// </summary>
+        internal static string gsPosition {
+            get {
+                return ResourceManager.GetString("gsPosition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quality.
+        /// </summary>
+        internal static string gsQuality {
+            get {
+                return ResourceManager.GetString("gsQuality", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Radio.
+        /// </summary>
+        internal static string gsRadio {
+            get {
+                return ResourceManager.GetString("gsRadio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Radio also enabled.
+        /// </summary>
+        internal static string gsRadioAlsoEnabled {
+            get {
+                return ResourceManager.GetString("gsRadioAlsoEnabled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Radio is also enabled, disabling it.
+        /// </summary>
+        internal static string gsRadioBeingDisabled {
+            get {
+                return ResourceManager.GetString("gsRadioBeingDisabled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Radio channel.
+        /// </summary>
+        internal static string gsRadioChannel {
+            get {
+                return ResourceManager.GetString("gsRadioChannel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Radio is set to on but no channel is selected.
+        /// </summary>
+        internal static string gsRadioOnNoChannel {
+            get {
+                return ResourceManager.GetString("gsRadioOnNoChannel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Radio Settings.
+        /// </summary>
+        internal static string gsRadioSetting {
+            get {
+                return ResourceManager.GetString("gsRadioSetting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rescan ports.
+        /// </summary>
+        internal static string gsRescanPorts {
+            get {
+                return ResourceManager.GetString("gsRescanPorts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Response.
+        /// </summary>
+        internal static string gsResponse {
+            get {
+                return ResourceManager.GetString("gsResponse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ** You must RESTART for any changes to take effect!.
+        /// </summary>
+        internal static string gsRestartWarning {
+            get {
+                return ResourceManager.GetString("gsRestartWarning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Roll.
+        /// </summary>
+        internal static string gsRoll {
+            get {
+                return ResourceManager.GetString("gsRoll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Run AgOpenGPS.
+        /// </summary>
+        internal static string gsRunAgOpenGPS {
+            get {
+                return ResourceManager.GetString("gsRunAgOpenGPS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        internal static string gsSave {
+            get {
+                return ResourceManager.GetString("gsSave", resourceCulture);
             }
         }
         
@@ -97,6 +970,15 @@ namespace AgIO {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Save As:.
+        /// </summary>
+        internal static string gsSaveAs {
+            get {
+                return ResourceManager.GetString("gsSaveAs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Save Comms.
         /// </summary>
         internal static string gsSaveComms {
@@ -106,11 +988,281 @@ namespace AgIO {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Save coms.
+        /// </summary>
+        internal static string gsSaveComs {
+            get {
+                return ResourceManager.GetString("gsSaveComs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save one first.
+        /// </summary>
+        internal static string gsSaveOneFirst {
+            get {
+                return ResourceManager.GetString("gsSaveOneFirst", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send command.
+        /// </summary>
+        internal static string gsSendCommand {
+            get {
+                return ResourceManager.GetString("gsSendCommand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send GGA.
+        /// </summary>
+        internal static string gsSendGGA {
+            get {
+                return ResourceManager.GetString("gsSendGGA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send to Manual Fix.
+        /// </summary>
+        internal static string gsSendtoManualFix {
+            get {
+                return ResourceManager.GetString("gsSendtoManualFix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Serious settings problem with - .
+        /// </summary>
+        internal static string gsSeriousProblem {
+            get {
+                return ResourceManager.GetString("gsSeriousProblem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to *Set to 0 for Serial.
+        /// </summary>
+        internal static string gsSet0Serial {
+            get {
+                return ResourceManager.GetString("gsSet0Serial", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set channel.
+        /// </summary>
+        internal static string gsSetChannel {
+            get {
+                return ResourceManager.GetString("gsSetChannel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to IP set to .
+        /// </summary>
+        internal static string gsSetDefaultIP {
+            get {
+                return ResourceManager.GetString("gsSetDefaultIP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set NTRIP.
+        /// </summary>
+        internal static string gsSetNtrip {
+            get {
+                return ResourceManager.GetString("gsSetNtrip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set password.
+        /// </summary>
+        internal static string gsSetPassword {
+            get {
+                return ResourceManager.GetString("gsSetPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set username.
+        /// </summary>
+        internal static string gsSetUsername {
+            get {
+                return ResourceManager.GetString("gsSetUsername", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Socket Exception.
+        /// </summary>
+        internal static string gsSocketException {
+            get {
+                return ResourceManager.GetString("gsSocketException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Source.
+        /// </summary>
+        internal static string gsSource {
+            get {
+                return ResourceManager.GetString("gsSource", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Source Data.
+        /// </summary>
+        internal static string gsSourceData {
+            get {
+                return ResourceManager.GetString("gsSourceData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Get source table error.
+        /// </summary>
+        internal static string gsSourceTableError {
+            get {
+                return ResourceManager.GetString("gsSourceTableError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Speed.
+        /// </summary>
+        internal static string gsSpeed {
+            get {
+                return ResourceManager.GetString("gsSpeed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Start/Stop.
+        /// </summary>
+        internal static string gsStartStop {
+            get {
+                return ResourceManager.GetString("gsStartStop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Steering.
+        /// </summary>
+        internal static string gsSteering {
+            get {
+                return ResourceManager.GetString("gsSteering", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stopped.
+        /// </summary>
+        internal static string gsStopped {
+            get {
+                return ResourceManager.GetString("gsStopped", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to System Data.
+        /// </summary>
+        internal static string gsSystemData {
+            get {
+                return ResourceManager.GetString("gsSystemData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This Computer.
+        /// </summary>
+        internal static string gsThisComputer {
+            get {
+                return ResourceManager.GetString("gsThisComputer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Turn on NTRIP.
+        /// </summary>
+        internal static string gsTurnOnNTRIP {
+            get {
+                return ResourceManager.GetString("gsTurnOnNTRIP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to UDP Ethernet Configuration.
+        /// </summary>
+        internal static string gsUDPEthernetConfig {
+            get {
+                return ResourceManager.GetString("gsUDPEthernetConfig", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to UDP On.
+        /// </summary>
+        internal static string gsUDPOn {
+            get {
+                return ResourceManager.GetString("gsUDPOn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use GPS fix.
+        /// </summary>
+        internal static string gsUseGPSFix {
+            get {
+                return ResourceManager.GetString("gsUseGPSFix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use manual fix.
+        /// </summary>
+        internal static string gsUseManualFix {
+            get {
+                return ResourceManager.GetString("gsUseManualFix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Username.
+        /// </summary>
+        internal static string gsUsername {
+            get {
+                return ResourceManager.GetString("gsUsername", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wait GPS.
+        /// </summary>
+        internal static string gsWaitGPS {
+            get {
+                return ResourceManager.GetString("gsWaitGPS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Waiting.
         /// </summary>
         internal static string gsWaiting {
             get {
                 return ResourceManager.GetString("gsWaiting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Watch.
+        /// </summary>
+        internal static string gsWatch {
+            get {
+                return ResourceManager.GetString("gsWatch", resourceCulture);
             }
         }
     }

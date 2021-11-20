@@ -118,405 +118,405 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="gs0Off" xml:space="preserve">
-    <value>0 = Off</value>
+    <value>z0 = Off</value>
   </data>
   <data name="gsAddChannel" xml:space="preserve">
-    <value>Add channel</value>
+    <value>zAdd channel</value>
   </data>
   <data name="gsAge" xml:space="preserve">
-    <value>Age</value>
+    <value>zAge</value>
   </data>
   <data name="gsAltitude" xml:space="preserve">
-    <value>Altitude</value>
+    <value>zAltitude</value>
   </data>
   <data name="gsAuthourizing" xml:space="preserve">
-    <value>Authorizing</value>
+    <value>zAuthorizing</value>
   </data>
   <data name="gsCancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>zCancel</value>
   </data>
   <data name="gsCantFind" xml:space="preserve">
-    <value>Can't find</value>
+    <value>zCan't find</value>
   </data>
   <data name="gsCantFindDrive" xml:space="preserve">
-    <value>Can't find drive</value>
+    <value>zCan't find drive</value>
   </data>
   <data name="gsChannels" xml:space="preserve">
-    <value>Channels</value>
+    <value>zChannels</value>
   </data>
   <data name="gsClose" xml:space="preserve">
-    <value>Close</value>
+    <value>zClose</value>
   </data>
   <data name="gsCloseComs" xml:space="preserve">
-    <value>Close communications</value>
+    <value>zClose communications</value>
   </data>
   <data name="gsCloseIMU" xml:space="preserve">
-    <value>Close IMU communications</value>
+    <value>zClose IMU communications</value>
   </data>
   <data name="gsCommand" xml:space="preserve">
-    <value>Command</value>
+    <value>zCommand</value>
   </data>
   <data name="gsCommunicationsConfig" xml:space="preserve">
-    <value>Communications Configuration</value>
+    <value>zCommunications Configuration</value>
   </data>
   <data name="gsConfigureRadio" xml:space="preserve">
-    <value>Configure radio</value>
+    <value>zConfigure radio</value>
   </data>
   <data name="gsConfirmIP" xml:space="preserve">
-    <value>Confirm IP</value>
+    <value>zConfirm IP</value>
   </data>
   <data name="gsConnectGPS" xml:space="preserve">
-    <value>Connect GPS</value>
+    <value>zConnect GPS</value>
   </data>
   <data name="gsConnectionProblem" xml:space="preserve">
-    <value>Connection Problem</value>
+    <value>zConnection Problem</value>
   </data>
   <data name="gsCriticalSettingsWarning" xml:space="preserve">
-    <value>Critical Settings Warning</value>
+    <value>zCritical Settings Warning</value>
   </data>
   <data name="gsCurrent" xml:space="preserve">
-    <value>Current</value>
+    <value>zCurrent</value>
   </data>
   <data name="gsCurrentGPSfix" xml:space="preserve">
-    <value>Current GPS fix</value>
+    <value>zCurrent GPS fix</value>
   </data>
   <data name="gsDeleteChannel" xml:space="preserve">
-    <value>Delete channel</value>
+    <value>zDelete channel</value>
   </data>
   <data name="gsDeviceManager" xml:space="preserve">
-    <value>Device Manager</value>
+    <value>zDevice Manager</value>
   </data>
   <data name="gsDistance" xml:space="preserve">
-    <value>Distance</value>
+    <value>zDistance</value>
   </data>
   <data name="gsDoubleCheckSettings" xml:space="preserve">
-    <value>Double check all your settings</value>
+    <value>zDouble check all your settings</value>
   </data>
   <data name="gsDriveMessage" xml:space="preserve">
-    <value>Drive Message</value>
+    <value>zDrive Message</value>
   </data>
   <data name="gsDriveServer" xml:space="preserve">
-    <value>Drive Server</value>
+    <value>zDrive Server</value>
   </data>
   <data name="gsDual" xml:space="preserve">
-    <value>Dual</value>
+    <value>zDual</value>
   </data>
   <data name="gsEditChannel" xml:space="preserve">
-    <value>Edit channel</value>
+    <value>zEdit channel</value>
   </data>
   <data name="gsEnterBroadcasterURLorIP" xml:space="preserve">
-    <value>Enter Broadcaster URL or IP</value>
+    <value>zEnter Broadcaster URL or IP</value>
   </data>
   <data name="gsEnterNewName" xml:space="preserve">
-    <value>Enter New Name</value>
+    <value>zEnter New Name</value>
   </data>
   <data name="gsEnterSomething" xml:space="preserve">
-    <value>Enter something</value>
+    <value>zEnter something</value>
   </data>
   <data name="gsEnterValue" xml:space="preserve">
-    <value>Enter a Value</value>
+    <value>zEnter a Value</value>
   </data>
   <data name="gsError" xml:space="preserve">
-    <value>Error</value>
+    <value>zError</value>
   </data>
   <data name="gsErrorOpeningPort" xml:space="preserve">
-    <value>Error opening port</value>
+    <value>zError opening port</value>
   </data>
   <data name="gsException" xml:space="preserve">
-    <value>Exception</value>
+    <value>zException</value>
   </data>
   <data name="gsFixAndResave" xml:space="preserve">
-    <value>Fix the issues and resave the vehicle file</value>
+    <value>zFix the issues and resave the vehicle file</value>
   </data>
   <data name="gsFormat" xml:space="preserve">
-    <value>Format</value>
+    <value>zFormat</value>
   </data>
   <data name="gsFrequency" xml:space="preserve">
-    <value>Frequency</value>
+    <value>zFrequency</value>
   </data>
   <data name="gsGetSourceTable" xml:space="preserve">
-    <value>Get Source Table</value>
+    <value>zGet Source Table</value>
   </data>
   <data name="gsGPS" xml:space="preserve">
-    <value>Global Positioning System (GPS)</value>
+    <value>zGlobal Positioning System (GPS)</value>
   </data>
   <data name="gsGPSData" xml:space="preserve">
-    <value>GPS Data</value>
+    <value>zGPS Data</value>
   </data>
   <data name="gsHost" xml:space="preserve">
-    <value>Host</value>
+    <value>zHost</value>
   </data>
   <data name="gsIMU" xml:space="preserve">
-    <value>Inertial measurement unit (IMU)</value>
+    <value>zInertial measurement unit (IMU)</value>
   </data>
   <data name="gsInvalid" xml:space="preserve">
-    <value>Invalid</value>
+    <value>zInvalid</value>
   </data>
   <data name="gsInvalidIP" xml:space="preserve">
-    <value>Invalid IP Address</value>
+    <value>zInvalid IP Address</value>
   </data>
   <data name="gsInvalidName" xml:space="preserve">
-    <value>Invalid Name</value>
+    <value>zInvalid Name</value>
   </data>
   <data name="gsKeyboard" xml:space="preserve">
-    <value>Keyboard</value>
+    <value>zKeyboard</value>
   </data>
   <data name="gsLatitude" xml:space="preserve">
-    <value>Latitude</value>
+    <value>zLatitude</value>
   </data>
   <data name="gsListening" xml:space="preserve">
-    <value>Listening</value>
+    <value>zListening</value>
   </data>
   <data name="gsLoad" xml:space="preserve">
-    <value>Load</value>
+    <value>zLoad</value>
   </data>
   <data name="gsLoadComs" xml:space="preserve">
-    <value>Load coms</value>
+    <value>zLoad coms</value>
   </data>
   <data name="gsLogNEMA" xml:space="preserve">
-    <value>Log NEMA</value>
+    <value>zLog NEMA</value>
   </data>
   <data name="gsLongitude" xml:space="preserve">
-    <value>Longitude</value>
+    <value>zLongitude</value>
   </data>
   <data name="gsMachine" xml:space="preserve">
-    <value>Machine</value>
+    <value>zMachine</value>
   </data>
   <data name="gsManualfix" xml:space="preserve">
-    <value>Manual fix</value>
+    <value>zManual fix</value>
   </data>
   <data name="gsMaximumExceeded" xml:space="preserve">
-    <value>Maximum has been exceeded</value>
+    <value>zMaximum has been exceeded</value>
   </data>
   <data name="gsMinimumExceeded" xml:space="preserve">
-    <value>Minimum has been exceeded</value>
+    <value>zMinimum has been exceeded</value>
   </data>
   <data name="gsModuleAddress" xml:space="preserve">
-    <value>Module Address and Ports</value>
+    <value>zModule Address and Ports</value>
   </data>
   <data name="gsModulePort" xml:space="preserve">
-    <value>Module Port</value>
+    <value>zModule Port</value>
   </data>
   <data name="gsModuleSendInfo" xml:space="preserve">
-    <value>All modules send to 9999</value>
+    <value>zAll modules send to 9999</value>
   </data>
   <data name="gsModuleUseInfo" xml:space="preserve">
-    <value>All modules use 8888</value>
+    <value>zAll modules use 8888</value>
   </data>
   <data name="gsMount" xml:space="preserve">
-    <value>Mount</value>
+    <value>zMount</value>
   </data>
   <data name="gsMountPoint" xml:space="preserve">
-    <value>Mount Point</value>
+    <value>zMount Point</value>
   </data>
   <data name="gsName" xml:space="preserve">
-    <value>Name</value>
+    <value>zName</value>
   </data>
   <data name="gsNetwork" xml:space="preserve">
-    <value>Network</value>
+    <value>zNetwork</value>
   </data>
   <data name="gsNetworking" xml:space="preserve">
-    <value>Networking</value>
+    <value>zNetworking</value>
   </data>
   <data name="gsNoChannel" xml:space="preserve">
-    <value>No channel</value>
+    <value>zNo channel</value>
   </data>
   <data name="gsNoFileFound" xml:space="preserve">
-    <value>No File Found</value>
+    <value>zNo File Found</value>
   </data>
   <data name="gsNoIPLocated" xml:space="preserve">
-    <value>No IP located</value>
+    <value>zNo IP located</value>
   </data>
   <data name="gsNone" xml:space="preserve">
-    <value>None</value>
+    <value>zNone</value>
   </data>
   <data name="gsNoSourceData" xml:space="preserve">
-    <value>No source data</value>
+    <value>zNo source data</value>
   </data>
   <data name="gsNotConnectingToCaster" xml:space="preserve">
-    <value>Not connecting to caster</value>
+    <value>zNot connecting to caster</value>
   </data>
   <data name="gsNotFilled" xml:space="preserve">
-    <value>is not filled in</value>
+    <value>zis not filled in</value>
   </data>
   <data name="gsNotSaved" xml:space="preserve">
-    <value>Not saved</value>
+    <value>zNot saved</value>
   </data>
   <data name="gsNotValidNumber" xml:space="preserve">
-    <value>is not a valid number</value>
+    <value>zis not a valid number</value>
   </data>
   <data name="gsNTRIPClientNotConfig" xml:space="preserve">
-    <value>NTRIP Client not set up</value>
+    <value>zNTRIP Client not set up</value>
   </data>
   <data name="gsNTRIPClientSettings" xml:space="preserve">
-    <value>NTRIP Client Settings</value>
+    <value>zNTRIP Client Settings</value>
   </data>
   <data name="gsNTRIPEnabled" xml:space="preserve">
-    <value>NTRIP also enabled</value>
+    <value>zNTRIP also enabled</value>
   </data>
   <data name="gsNTRIPEnabledDisabling" xml:space="preserve">
-    <value>NTRIP is also enabled, disabling it</value>
+    <value>zNTRIP is also enabled, disabling it</value>
   </data>
   <data name="gsOff" xml:space="preserve">
-    <value>Off</value>
+    <value>zOff</value>
   </data>
   <data name="gsOffline" xml:space="preserve">
-    <value>Offline</value>
+    <value>zOffline</value>
   </data>
   <data name="gsOnlyTCPPort" xml:space="preserve">
-    <value>Only TCP:Port</value>
+    <value>zOnly TCP:Port</value>
   </data>
   <data name="gsOpenComs" xml:space="preserve">
-    <value>Open communications</value>
+    <value>zOpen communications</value>
   </data>
   <data name="gsOverwrite" xml:space="preserve">
-    <value>Overwrite</value>
+    <value>zOverwrite</value>
   </data>
   <data name="gsPassword" xml:space="preserve">
-    <value>Password</value>
+    <value>zPassword</value>
   </data>
   <data name="gsPosition" xml:space="preserve">
-    <value>Position</value>
+    <value>zPosition</value>
   </data>
   <data name="gsQuality" xml:space="preserve">
-    <value>Quality</value>
+    <value>zQuality</value>
   </data>
   <data name="gsRadio" xml:space="preserve">
-    <value>Radio</value>
+    <value>zRadio</value>
   </data>
   <data name="gsRadioAlsoEnabled" xml:space="preserve">
-    <value>Radio also enabled</value>
+    <value>zRadio also enabled</value>
   </data>
   <data name="gsRadioBeingDisabled" xml:space="preserve">
-    <value>Radio is also enabled, disabling it</value>
+    <value>zRadio is also enabled, disabling it</value>
   </data>
   <data name="gsRadioChannel" xml:space="preserve">
-    <value>Radio channel</value>
+    <value>zRadio channel</value>
   </data>
   <data name="gsRadioOnNoChannel" xml:space="preserve">
-    <value>Radio is set to on but no channel is selected</value>
+    <value>zRadio is set to on but no channel is selected</value>
   </data>
   <data name="gsRadioSetting" xml:space="preserve">
-    <value>Radio Settings</value>
+    <value>zRadio Settings</value>
   </data>
   <data name="gsRescanPorts" xml:space="preserve">
-    <value>Rescan ports</value>
+    <value>zRescan ports</value>
   </data>
   <data name="gsResponse" xml:space="preserve">
-    <value>Response</value>
+    <value>zResponse</value>
   </data>
   <data name="gsRestartWarning" xml:space="preserve">
-    <value>** You must RESTART for any changes to take effect!</value>
+    <value>z** You must RESTART for any changes to take effect!</value>
   </data>
   <data name="gsRoll" xml:space="preserve">
-    <value>Roll</value>
+    <value>zRoll</value>
   </data>
   <data name="gsRunAgOpenGPS" xml:space="preserve">
-    <value>Run AgOpenGPS</value>
+    <value>zRun AgOpenGPS</value>
   </data>
   <data name="gsSave" xml:space="preserve">
-    <value>Save</value>
+    <value>zSave</value>
   </data>
   <data name="gsSaveAndReturn" xml:space="preserve">
-    <value>Save And Return</value>
+    <value>zSave And Return</value>
   </data>
   <data name="gsSaveAs" xml:space="preserve">
-    <value>Save As:</value>
+    <value>zSave As:</value>
   </data>
   <data name="gsSaveComms" xml:space="preserve">
-    <value>Save Comms</value>
+    <value>zSave Comms</value>
   </data>
   <data name="gsSaveComs" xml:space="preserve">
-    <value>Save coms</value>
+    <value>zSave coms</value>
   </data>
   <data name="gsSaveOneFirst" xml:space="preserve">
-    <value>Save one first</value>
+    <value>zSave one first</value>
   </data>
   <data name="gsSendCommand" xml:space="preserve">
-    <value>Send command</value>
+    <value>zSend command</value>
   </data>
   <data name="gsSendGGA" xml:space="preserve">
-    <value>Send GGA</value>
+    <value>zSend GGA</value>
   </data>
   <data name="gsSendtoManualFix" xml:space="preserve">
-    <value>Send to Manual Fix</value>
+    <value>zSend to Manual Fix</value>
   </data>
   <data name="gsSeriousProblem" xml:space="preserve">
-    <value>Serious settings problem with - </value>
+    <value>zSerious settings problem with - </value>
   </data>
   <data name="gsSet0Serial" xml:space="preserve">
-    <value>*Set to 0 for Serial</value>
+    <value>z*Set to 0 for Serial</value>
   </data>
   <data name="gsSetChannel" xml:space="preserve">
-    <value>Set channel</value>
+    <value>zSet channel</value>
   </data>
   <data name="gsSetDefaultIP" xml:space="preserve">
-    <value>IP set to </value>
+    <value>zIP set to </value>
   </data>
   <data name="gsSetNtrip" xml:space="preserve">
-    <value>Set NTRIP</value>
+    <value>zSet NTRIP</value>
   </data>
   <data name="gsSetPassword" xml:space="preserve">
-    <value>Set password</value>
+    <value>zSet password</value>
   </data>
   <data name="gsSetUsername" xml:space="preserve">
-    <value>Set username</value>
+    <value>zSet username</value>
   </data>
   <data name="gsSocketException" xml:space="preserve">
-    <value>Socket Exception</value>
+    <value>zSocket Exception</value>
   </data>
   <data name="gsSource" xml:space="preserve">
-    <value>Source</value>
+    <value>zSource</value>
   </data>
   <data name="gsSourceData" xml:space="preserve">
-    <value>Source Data</value>
+    <value>zSource Data</value>
   </data>
   <data name="gsSourceTableError" xml:space="preserve">
-    <value>Get source table error</value>
+    <value>zGet source table error</value>
   </data>
   <data name="gsSpeed" xml:space="preserve">
-    <value>Speed</value>
+    <value>zSpeed</value>
   </data>
   <data name="gsStartStop" xml:space="preserve">
-    <value>Start/Stop</value>
+    <value>zStart/Stop</value>
   </data>
   <data name="gsSteering" xml:space="preserve">
-    <value>Steering</value>
+    <value>zSteering</value>
   </data>
   <data name="gsStopped" xml:space="preserve">
-    <value>Stopped</value>
+    <value>zStopped</value>
   </data>
   <data name="gsSystemData" xml:space="preserve">
-    <value>System Data</value>
+    <value>zSystem Data</value>
   </data>
   <data name="gsThisComputer" xml:space="preserve">
-    <value>This Computer</value>
+    <value>zThis Computer</value>
   </data>
   <data name="gsTurnOnNTRIP" xml:space="preserve">
-    <value>Turn on NTRIP</value>
+    <value>zTurn on NTRIP</value>
   </data>
   <data name="gsUDPEthernetConfig" xml:space="preserve">
-    <value>UDP Ethernet Configuration</value>
+    <value>zUDP Ethernet Configuration</value>
   </data>
   <data name="gsUDPOn" xml:space="preserve">
-    <value>UDP On</value>
+    <value>zUDP On</value>
   </data>
   <data name="gsUseGPSFix" xml:space="preserve">
-    <value>Use GPS fix</value>
+    <value>zUse GPS fix</value>
   </data>
   <data name="gsUseManualFix" xml:space="preserve">
-    <value>Use manual fix</value>
+    <value>zUse manual fix</value>
   </data>
   <data name="gsUsername" xml:space="preserve">
-    <value>Username</value>
+    <value>zUsername</value>
   </data>
   <data name="gsWaitGPS" xml:space="preserve">
-    <value>Wait GPS</value>
+    <value>zWait GPS</value>
   </data>
   <data name="gsWaiting" xml:space="preserve">
-    <value>Waiting</value>
+    <value>zWaiting</value>
   </data>
   <data name="gsWatch" xml:space="preserve">
-    <value>Watch</value>
+    <value>zWatch</value>
   </data>
 </root>

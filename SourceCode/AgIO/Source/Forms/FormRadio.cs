@@ -40,6 +40,28 @@ namespace AgIO
 
         private void FormRadio_Load(object sender, EventArgs e)
         {
+
+            // Create the ToolTip and associate with the form container.
+            ToolTip toolTip1 = new ToolTip();
+            // Set tooltip default parameters
+            toolTip1.AutoPopDelay = 5000;
+            toolTip1.InitialDelay = 1000;
+            toolTip1.ReshowDelay = 500;
+            toolTip1.ShowAlways = false;
+            toolTip1.Active = true;
+
+            // set tooltip values on related controls
+            toolTip1.SetToolTip(this.btnAddChannel, gStr.gsAddChannel);
+            toolTip1.SetToolTip(this.btnCloseSerial, gStr.gsCloseComs);
+            toolTip1.SetToolTip(this.btnDeleteChannel, gStr.gsDeleteChannel);
+            toolTip1.SetToolTip(this.btnEditChannel, gStr.gsEditChannel);
+            toolTip1.SetToolTip(this.btnOpenSerial, gStr.gsOpenComs);
+            toolTip1.SetToolTip(this.btnRadioCancel, gStr.gsCancel);
+            toolTip1.SetToolTip(this.btnRadioOK, gStr.gsClose);
+            toolTip1.SetToolTip(this.btnRescanPorts, gStr.gsRescanPorts);
+            toolTip1.SetToolTip(this.btnSendCommand, gStr.gsSendCommand);
+            toolTip1.SetToolTip(this.btnSetChannel, gStr.gsSetChannel);
+
             cboxRadioPort.Items.Clear();
 
             foreach (string s in System.IO.Ports.SerialPort.GetPortNames())
@@ -76,7 +98,7 @@ namespace AgIO
         {
             if(cboxIsRadioOn.Checked && lvChannels.SelectedItems.Count == 0)
             {
-                mf.TimedMessageBox(2000, "No channel", "Radio is set to on. But no channel is selected");
+                mf.TimedMessageBox(2000, gStr.gsNoChannel,gStr.gsRadioOnNoChannel);
                 // Cancel close
                 DialogResult = DialogResult.None;
                 return;
@@ -94,7 +116,7 @@ namespace AgIO
 
             if (Properties.Settings.Default.setRadio_isOn && Properties.Settings.Default.setNTRIP_isOn)
             {
-                mf.TimedMessageBox(2000, "NTRIP also enabled", "NTRIP is also enabled, diabling it");
+                mf.TimedMessageBox(2000, gStr.gsNTRIPEnabled, gStr.gsNTRIPEnabledDisabling);
                 Properties.Settings.Default.setNTRIP_isOn = false;
             }
 
@@ -106,7 +128,7 @@ namespace AgIO
             mf.ConfigureNTRIP();
         }
 
-        private void btnRescan_Click(object sender, EventArgs e)
+        private void btnRescanPorts_Click(object sender, EventArgs e)
         {
             cboxRadioPort.Items.Clear();
 
@@ -145,7 +167,7 @@ namespace AgIO
             }
             catch(Exception ex)
             {
-                mf.TimedMessageBox(3000, "Error opening port", ex.Message);
+                mf.TimedMessageBox(3000, gStr.gsErrorOpeningPort, ex.Message);
             }
 
             SetButtonState();

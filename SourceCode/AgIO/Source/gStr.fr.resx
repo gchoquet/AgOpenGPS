@@ -118,163 +118,163 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="gs0Off" xml:space="preserve">
-    <value>0 = Off</value>
+    <value>0 = Désactivé</value>
   </data>
   <data name="gsAddChannel" xml:space="preserve">
-    <value>Add channel</value>
+    <value>Ajouter un canal</value>
   </data>
   <data name="gsAge" xml:space="preserve">
-    <value>Age</value>
+    <value>Âge</value>
   </data>
   <data name="gsAltitude" xml:space="preserve">
     <value>Altitude</value>
   </data>
   <data name="gsAuthourizing" xml:space="preserve">
-    <value>Authorizing</value>
+    <value>Autorisant</value>
   </data>
   <data name="gsCancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Annuler</value>
   </data>
   <data name="gsCantFind" xml:space="preserve">
-    <value>Can't find</value>
+    <value>Impossible de trouver</value>
   </data>
   <data name="gsCantFindDrive" xml:space="preserve">
-    <value>Can't find drive</value>
+    <value>Impossible de trouver le lecteur</value>
   </data>
   <data name="gsChannels" xml:space="preserve">
-    <value>Channels</value>
+    <value>Canaux</value>
   </data>
   <data name="gsClose" xml:space="preserve">
-    <value>Close</value>
+    <value>Fermer</value>
   </data>
   <data name="gsCloseComs" xml:space="preserve">
-    <value>Close communications</value>
+    <value>Communications étroites</value>
   </data>
   <data name="gsCloseIMU" xml:space="preserve">
-    <value>Close IMU communications</value>
+    <value>Fermer les communications IMU</value>
   </data>
   <data name="gsCommand" xml:space="preserve">
-    <value>Command</value>
+    <value>Commander</value>
   </data>
   <data name="gsCommunicationsConfig" xml:space="preserve">
     <value>Communications Configuration</value>
   </data>
   <data name="gsConfigureRadio" xml:space="preserve">
-    <value>Configure radio</value>
+    <value>Configurer la radio</value>
   </data>
   <data name="gsConfirmIP" xml:space="preserve">
-    <value>Confirm IP</value>
+    <value>Confirmer l’adresse IP</value>
   </data>
   <data name="gsConnectGPS" xml:space="preserve">
-    <value>Connect GPS</value>
+    <value>Connecter le GPS</value>
   </data>
   <data name="gsConnectionProblem" xml:space="preserve">
-    <value>Connection Problem</value>
+    <value>Problème de connexion</value>
   </data>
   <data name="gsCriticalSettingsWarning" xml:space="preserve">
-    <value>Critical Settings Warning</value>
+    <value>Avertissement des paramètres critiques</value>
   </data>
   <data name="gsCurrent" xml:space="preserve">
-    <value>Current</value>
+    <value>Courant</value>
   </data>
   <data name="gsCurrentGPSfix" xml:space="preserve">
-    <value>Current GPS fix</value>
+    <value>Correction GPS actuelle</value>
   </data>
   <data name="gsDeleteChannel" xml:space="preserve">
-    <value>Delete channel</value>
+    <value>Supprimer le canal</value>
   </data>
   <data name="gsDeviceManager" xml:space="preserve">
-    <value>Device Manager</value>
+    <value>Gestionnaire de périphériques</value>
   </data>
   <data name="gsDistance" xml:space="preserve">
     <value>Distance</value>
   </data>
   <data name="gsDoubleCheckSettings" xml:space="preserve">
-    <value>Double check all your settings</value>
+    <value>Vérifiez tous vos paramètres</value>
   </data>
   <data name="gsDriveMessage" xml:space="preserve">
-    <value>Drive Message</value>
+    <value>Message du lecteur</value>
   </data>
   <data name="gsDriveServer" xml:space="preserve">
-    <value>Drive Server</value>
+    <value>Serveur de lecteur</value>
   </data>
   <data name="gsDual" xml:space="preserve">
-    <value>Dual</value>
+    <value>Double</value>
   </data>
   <data name="gsEditChannel" xml:space="preserve">
-    <value>Edit channel</value>
+    <value>Modifier le canal</value>
   </data>
   <data name="gsEnterBroadcasterURLorIP" xml:space="preserve">
-    <value>Enter Broadcaster URL or IP</value>
+    <value>Entrez l’URL ou l’adresse IP du diffuseur</value>
   </data>
   <data name="gsEnterNewName" xml:space="preserve">
-    <value>Enter New Name</value>
+    <value>Entrez un nouveau nom</value>
   </data>
   <data name="gsEnterSomething" xml:space="preserve">
-    <value>Enter something</value>
+    <value>Entrez quelque chose</value>
   </data>
   <data name="gsEnterValue" xml:space="preserve">
-    <value>Enter a Value</value>
+    <value>Entrez une valeur</value>
   </data>
   <data name="gsError" xml:space="preserve">
-    <value>Error</value>
+    <value>Erreur</value>
   </data>
   <data name="gsErrorOpeningPort" xml:space="preserve">
-    <value>Error opening port</value>
+    <value>Erreur lors de l’ouverture du port</value>
   </data>
   <data name="gsException" xml:space="preserve">
     <value>Exception</value>
   </data>
   <data name="gsFixAndResave" xml:space="preserve">
-    <value>Fix the issues and resave the vehicle file</value>
+    <value>Résoudre les problèmes et réexéregistrer le fichier du véhicule</value>
   </data>
   <data name="gsFormat" xml:space="preserve">
     <value>Format</value>
   </data>
   <data name="gsFrequency" xml:space="preserve">
-    <value>Frequency</value>
+    <value>Fréquence</value>
   </data>
   <data name="gsGetSourceTable" xml:space="preserve">
-    <value>Get Source Table</value>
+    <value>Obtenir la table source</value>
   </data>
   <data name="gsGPS" xml:space="preserve">
-    <value>Global Positioning System (GPS)</value>
+    <value>Système de positionnement global (GPS)</value>
   </data>
   <data name="gsGPSData" xml:space="preserve">
-    <value>GPS Data</value>
+    <value>Données GPS</value>
   </data>
   <data name="gsHost" xml:space="preserve">
-    <value>Host</value>
+    <value>Hôte</value>
   </data>
   <data name="gsIMU" xml:space="preserve">
-    <value>Inertial measurement unit (IMU)</value>
+    <value>Unité de mesure inertielle (IMU)</value>
   </data>
   <data name="gsInvalid" xml:space="preserve">
-    <value>Invalid</value>
+    <value>Non valide</value>
   </data>
   <data name="gsInvalidIP" xml:space="preserve">
-    <value>Invalid IP Address</value>
+    <value>Adresse IP non valide</value>
   </data>
   <data name="gsInvalidName" xml:space="preserve">
-    <value>Invalid Name</value>
+    <value>Nom non valide</value>
   </data>
   <data name="gsKeyboard" xml:space="preserve">
-    <value>Keyboard</value>
+    <value>Clavier</value>
   </data>
   <data name="gsLatitude" xml:space="preserve">
     <value>Latitude</value>
   </data>
   <data name="gsListening" xml:space="preserve">
-    <value>Listening</value>
+    <value>Écoute</value>
   </data>
   <data name="gsLoad" xml:space="preserve">
-    <value>Load</value>
+    <value>Charger</value>
   </data>
   <data name="gsLoadComs" xml:space="preserve">
-    <value>Load coms</value>
+    <value>Charger coms</value>
   </data>
   <data name="gsLogNEMA" xml:space="preserve">
-    <value>Log NEMA</value>
+    <value>Enregistrer NEMA</value>
   </data>
   <data name="gsLongitude" xml:space="preserve">
     <value>Longitude</value>
@@ -283,184 +283,184 @@
     <value>Machine</value>
   </data>
   <data name="gsManualfix" xml:space="preserve">
-    <value>Manual fix</value>
+    <value>Correction manuelle</value>
   </data>
   <data name="gsMaximumExceeded" xml:space="preserve">
-    <value>Maximum has been exceeded</value>
+    <value>Le maximum a été dépassé</value>
   </data>
   <data name="gsMinimumExceeded" xml:space="preserve">
-    <value>Minimum has been exceeded</value>
+    <value>Le minimum a été dépassé</value>
   </data>
   <data name="gsModuleAddress" xml:space="preserve">
-    <value>Module Address and Ports</value>
+    <value>Adresse et ports du module</value>
   </data>
   <data name="gsModulePort" xml:space="preserve">
     <value>Module Port</value>
   </data>
   <data name="gsModuleSendInfo" xml:space="preserve">
-    <value>All modules send to 9999</value>
+    <value>Tous les modules envoient au 9999</value>
   </data>
   <data name="gsModuleUseInfo" xml:space="preserve">
-    <value>All modules use 8888</value>
+    <value>Tous les modules utilisent 8888</value>
   </data>
   <data name="gsMount" xml:space="preserve">
-    <value>Mount</value>
+    <value>Monter</value>
   </data>
   <data name="gsMountPoint" xml:space="preserve">
-    <value>Mount Point</value>
+    <value>Pointe du Mont</value>
   </data>
   <data name="gsName" xml:space="preserve">
-    <value>Name</value>
+    <value>Nom</value>
   </data>
   <data name="gsNetwork" xml:space="preserve">
-    <value>Network</value>
+    <value>Réseau</value>
   </data>
   <data name="gsNetworking" xml:space="preserve">
-    <value>Networking</value>
+    <value>Réseautage</value>
   </data>
   <data name="gsNoChannel" xml:space="preserve">
-    <value>No channel</value>
+    <value>Pas de canal</value>
   </data>
   <data name="gsNoFileFound" xml:space="preserve">
-    <value>No File Found</value>
+    <value>Aucun fichier trouvé</value>
   </data>
   <data name="gsNoIPLocated" xml:space="preserve">
-    <value>No IP located</value>
+    <value>Aucune adresse IP localisée</value>
   </data>
   <data name="gsNone" xml:space="preserve">
-    <value>None</value>
+    <value>Aucun</value>
   </data>
   <data name="gsNoSourceData" xml:space="preserve">
-    <value>No source data</value>
+    <value>Aucune donnée source</value>
   </data>
   <data name="gsNotConnectingToCaster" xml:space="preserve">
-    <value>Not connecting to caster</value>
+    <value>Ne pas se connecter à la roulette</value>
   </data>
   <data name="gsNotFilled" xml:space="preserve">
-    <value>is not filled in</value>
+    <value>n’est pas renseigné</value>
   </data>
   <data name="gsNotSaved" xml:space="preserve">
-    <value>Not saved</value>
+    <value>Non enregistré</value>
   </data>
   <data name="gsNotValidNumber" xml:space="preserve">
-    <value>is not a valid number</value>
+    <value>n’est pas un numéro valide</value>
   </data>
   <data name="gsNTRIPClientNotConfig" xml:space="preserve">
-    <value>NTRIP Client not set up</value>
+    <value>Le client NTRIP n’est pas configuré</value>
   </data>
   <data name="gsNTRIPClientSettings" xml:space="preserve">
-    <value>NTRIP Client Settings</value>
+    <value>Paramètres du client NTRIP</value>
   </data>
   <data name="gsNTRIPEnabled" xml:space="preserve">
-    <value>NTRIP also enabled</value>
+    <value>NTRIP également activé</value>
   </data>
   <data name="gsNTRIPEnabledDisabling" xml:space="preserve">
-    <value>NTRIP is also enabled, disabling it</value>
+    <value>NTRIP est également activé, ce qui le désactive</value>
   </data>
   <data name="gsOff" xml:space="preserve">
-    <value>Off</value>
+    <value>De</value>
   </data>
   <data name="gsOffline" xml:space="preserve">
-    <value>Offline</value>
+    <value>Hors-ligne</value>
   </data>
   <data name="gsOnlyTCPPort" xml:space="preserve">
-    <value>Only TCP:Port</value>
+    <value>Uniquement TCP:Port</value>
   </data>
   <data name="gsOpenComs" xml:space="preserve">
-    <value>Open communications</value>
+    <value>Communications ouvertes</value>
   </data>
   <data name="gsOverwrite" xml:space="preserve">
-    <value>Overwrite</value>
+    <value>Écraser</value>
   </data>
   <data name="gsPassword" xml:space="preserve">
-    <value>Password</value>
+    <value>Mot de passe</value>
   </data>
   <data name="gsPosition" xml:space="preserve">
     <value>Position</value>
   </data>
   <data name="gsQuality" xml:space="preserve">
-    <value>Quality</value>
+    <value>Qualité</value>
   </data>
   <data name="gsRadio" xml:space="preserve">
     <value>Radio</value>
   </data>
   <data name="gsRadioAlsoEnabled" xml:space="preserve">
-    <value>Radio also enabled</value>
+    <value>Radio également activée</value>
   </data>
   <data name="gsRadioBeingDisabled" xml:space="preserve">
-    <value>Radio is also enabled, disabling it</value>
+    <value>La radio est également activée, ce qui la désactive</value>
   </data>
   <data name="gsRadioChannel" xml:space="preserve">
-    <value>Radio channel</value>
+    <value>Chaîne de radio</value>
   </data>
   <data name="gsRadioOnNoChannel" xml:space="preserve">
-    <value>Radio is set to on but no channel is selected</value>
+    <value>La radio est activée, mais aucun canal n’est sélectionné</value>
   </data>
   <data name="gsRadioSetting" xml:space="preserve">
-    <value>Radio Settings</value>
+    <value>Paramètres radio</value>
   </data>
   <data name="gsRescanPorts" xml:space="preserve">
-    <value>Rescan ports</value>
+    <value>Réanalyser les ports</value>
   </data>
   <data name="gsResponse" xml:space="preserve">
-    <value>Response</value>
+    <value>Réponse</value>
   </data>
   <data name="gsRestartWarning" xml:space="preserve">
-    <value>** You must RESTART for any changes to take effect!</value>
+    <value>** Vous devez REDÉMARRER pour que toute modification prenne effet!</value>
   </data>
   <data name="gsRoll" xml:space="preserve">
-    <value>Roll</value>
+    <value>Rouler</value>
   </data>
   <data name="gsRunAgOpenGPS" xml:space="preserve">
-    <value>Run AgOpenGPS</value>
+    <value>Exécutez AgOpenGPS</value>
   </data>
   <data name="gsSave" xml:space="preserve">
-    <value>Save</value>
+    <value>Sauvegarder</value>
   </data>
   <data name="gsSaveAndReturn" xml:space="preserve">
-    <value>Save And Return</value>
+    <value>Enregistrer et retourner</value>
   </data>
   <data name="gsSaveAs" xml:space="preserve">
-    <value>Save As:</value>
+    <value>Enregistrer sous :</value>
   </data>
   <data name="gsSaveComms" xml:space="preserve">
-    <value>Save Comms</value>
+    <value>Enregistrer les communications</value>
   </data>
   <data name="gsSaveComs" xml:space="preserve">
-    <value>Save coms</value>
+    <value>Enregistrer les coms</value>
   </data>
   <data name="gsSaveOneFirst" xml:space="preserve">
-    <value>Save one first</value>
+    <value>Enregistrez-en un d’abord</value>
   </data>
   <data name="gsSendCommand" xml:space="preserve">
-    <value>Send command</value>
+    <value>Envoyer, commande</value>
   </data>
   <data name="gsSendGGA" xml:space="preserve">
-    <value>Send GGA</value>
+    <value>Envoyer GGA</value>
   </data>
   <data name="gsSendtoManualFix" xml:space="preserve">
-    <value>Send to Manual Fix</value>
+    <value>Envoyer à Manual Fix</value>
   </data>
   <data name="gsSeriousProblem" xml:space="preserve">
-    <value>Serious settings problem with - </value>
+    <value>Grave problème de paramètres avec - </value>
   </data>
   <data name="gsSet0Serial" xml:space="preserve">
-    <value>*Set to 0 for Serial</value>
+    <value>*Définir sur 0 pour Serial</value>
   </data>
   <data name="gsSetChannel" xml:space="preserve">
-    <value>Set channel</value>
+    <value>Définir le canal</value>
   </data>
   <data name="gsSetDefaultIP" xml:space="preserve">
-    <value>IP set to </value>
+    <value>IP définie sur </value>
   </data>
   <data name="gsSetNtrip" xml:space="preserve">
-    <value>Set NTRIP</value>
+    <value>Définir NTRIP</value>
   </data>
   <data name="gsSetPassword" xml:space="preserve">
-    <value>Set password</value>
+    <value>Définir le mot de passe</value>
   </data>
   <data name="gsSetUsername" xml:space="preserve">
-    <value>Set username</value>
+    <value>Définir le nom d’utilisateur</value>
   </data>
   <data name="gsSocketException" xml:space="preserve">
     <value>Socket Exception</value>
@@ -469,54 +469,54 @@
     <value>Source</value>
   </data>
   <data name="gsSourceData" xml:space="preserve">
-    <value>Source Data</value>
+    <value>Données sources</value>
   </data>
   <data name="gsSourceTableError" xml:space="preserve">
-    <value>Get source table error</value>
+    <value>Obtenir l’erreur de table source</value>
   </data>
   <data name="gsSpeed" xml:space="preserve">
-    <value>Speed</value>
+    <value>Vitesse</value>
   </data>
   <data name="gsStartStop" xml:space="preserve">
-    <value>Start/Stop</value>
+    <value>Démarrer/Arrêter</value>
   </data>
   <data name="gsSteering" xml:space="preserve">
-    <value>Steering</value>
+    <value>Direction</value>
   </data>
   <data name="gsStopped" xml:space="preserve">
-    <value>Stopped</value>
+    <value>Arrêté</value>
   </data>
   <data name="gsSystemData" xml:space="preserve">
-    <value>System Data</value>
+    <value>Données système</value>
   </data>
   <data name="gsThisComputer" xml:space="preserve">
-    <value>This Computer</value>
+    <value>Cet ordinateur</value>
   </data>
   <data name="gsTurnOnNTRIP" xml:space="preserve">
-    <value>Turn on NTRIP</value>
+    <value>Activer NTRIP</value>
   </data>
   <data name="gsUDPEthernetConfig" xml:space="preserve">
     <value>UDP Ethernet Configuration</value>
   </data>
   <data name="gsUDPOn" xml:space="preserve">
-    <value>UDP On</value>
+    <value>UDP activé</value>
   </data>
   <data name="gsUseGPSFix" xml:space="preserve">
-    <value>Use GPS fix</value>
+    <value>Utiliser le correctif GPS</value>
   </data>
   <data name="gsUseManualFix" xml:space="preserve">
-    <value>Use manual fix</value>
+    <value>Utiliser un correctif manuel</value>
   </data>
   <data name="gsUsername" xml:space="preserve">
-    <value>Username</value>
+    <value>Nom d’utilisateur</value>
   </data>
   <data name="gsWaitGPS" xml:space="preserve">
-    <value>Wait GPS</value>
+    <value>Attendre GPS</value>
   </data>
   <data name="gsWaiting" xml:space="preserve">
-    <value>Waiting</value>
+    <value>Attente</value>
   </data>
   <data name="gsWatch" xml:space="preserve">
-    <value>Watch</value>
+    <value>Montre</value>
   </data>
 </root>

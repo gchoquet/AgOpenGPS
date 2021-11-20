@@ -28,6 +28,20 @@ namespace AgIO
         {
             double minDist = 999999999;
             ListViewItem itm;
+
+            // Create the ToolTip and associate with the form container.
+            ToolTip toolTip1 = new ToolTip();
+            // Set tooltip default parameters
+            toolTip1.AutoPopDelay = 5000;
+            toolTip1.InitialDelay = 1000;
+            toolTip1.ReshowDelay = 500;
+            toolTip1.ShowAlways = false;
+            toolTip1.Active = true;
+
+            // set tooltip values on related controls
+            toolTip1.SetToolTip(this.btnCancel, gStr.gsCancel);
+            toolTip1.SetToolTip(this.btnUseMount, gStr.gsClose);
+
             if (dataList.Count > 0)
             {
                 double temp;
@@ -70,7 +84,7 @@ namespace AgIO
             Process.Start(site);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void butCancel_Click(object sender, EventArgs e)
         {
             Close();
         }

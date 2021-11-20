@@ -53,7 +53,7 @@ namespace AgIO
             {
                 if (ntripCounter > 28)
                 {
-                    TimedMessageBox(2000, "Connection Problem", "Not Connecting To Caster");
+                    TimedMessageBox(2000, gStr.gsConnectionProblem, gStr.gsNotConnectingToCaster);
                     ReconnectRequest();
                 }
                 if (clientSocket != null && clientSocket.Connected)
@@ -69,12 +69,12 @@ namespace AgIO
             if (isNTRIP_RequiredOn || isRadio_RequiredOn)
             {
                 //update byte counter and up counter
-                if (ntripCounter > 59) btnStartStopNtrip.Text = (ntripCounter / 60) + " Mins";
-                else if (ntripCounter < 60 && ntripCounter > 22) btnStartStopNtrip.Text = ntripCounter + " Secs";
-                else btnStartStopNtrip.Text = "In " + (Math.Abs(ntripCounter - 22)) + " secs";
+                if (ntripCounter > 59) btnStartStop.Text = (ntripCounter / 60) + " Mins";
+                else if (ntripCounter < 60 && ntripCounter > 22) btnStartStop.Text = ntripCounter + " Secs";
+                else btnStartStop.Text = "In " + (Math.Abs(ntripCounter - 22)) + " secs";
 
 
-                btnStartStopNtrip.Text = ntripCounter + " Secs";
+                btnStartStop.Text = ntripCounter + " Secs";
 
                 //pbarNtripMenu.Value = unchecked((byte)(tripBytes * 0.02));
                 lblNTRIPBytes.Text = ((tripBytes) * 0.001).ToString("###,###,###") + " kb";
@@ -100,14 +100,14 @@ namespace AgIO
                         }
                         else if (isRadio_RequiredOn)
                         {
-                            lblWatch.Text += " Radio";
+                            lblWatch.Text += " " + gStr.gsRadio;
                         }
                     }
                 }
 
                 if (sendGGAInterval > 0 && isNTRIP_Sending)
                 {
-                    lblWatch.Text = "Send GGA";
+                    lblWatch.Text = gStr.gsSendGGA;
                     isNTRIP_Sending = false;
                 }
             }
@@ -132,8 +132,8 @@ namespace AgIO
             if (isRadio_RequiredOn && isNTRIP_Connected)
             {
                 ShutDownNTRIP();
-                lblWatch.Text = "Stopped";
-                btnStartStopNtrip.Text = "OffLine";
+                lblWatch.Text = gStr.gsStopped;
+                btnStartStop.Text = gStr.gsOffline;
                 isRadio_RequiredOn = false;
             }
 
@@ -165,7 +165,7 @@ namespace AgIO
                 DirectoryInfo di = new DirectoryInfo(Application.StartupPath);
                 string strPath = di.ToString();
                 strPath += "\\AgOpenGPS.exe";
-                //TimedMessageBox(8000, "No File Found", strPath);
+                //TimedMessageBox(8000, gStr.gsNoFileFound, strPath);
 
                 try
                 {
@@ -178,7 +178,7 @@ namespace AgIO
                 }
                 catch
                 {
-                    TimedMessageBox(2000, "No File Found", "Can't Find AgOpenGPS");
+                    TimedMessageBox(2000, gStr.gsNoFileFound, gStr.gsCantFind + " AgOpenGPS");
                 }
             }
             else
@@ -203,7 +203,7 @@ namespace AgIO
             }
             catch
             {
-                TimedMessageBox(2000, "No File Found", "Can't Find Drive");
+                TimedMessageBox(2000, gStr.gsNoFileFound, gStr.gsCantFindDrive);
             }
 
         }
@@ -215,8 +215,8 @@ namespace AgIO
                 if (isNTRIP_RequiredOn || isRadio_RequiredOn)
                 {
                     ShutDownNTRIP();
-                    lblWatch.Text = "Stopped";
-                    btnStartStopNtrip.Text = "OffLine";
+                    lblWatch.Text = gStr.gsStopped;
+                    btnStartStop.Text = gStr.gsOffline;
                     isNTRIP_RequiredOn = false;
                     isRadio_RequiredOn = false;
                 }
@@ -224,12 +224,12 @@ namespace AgIO
                 {
                     isNTRIP_RequiredOn = Properties.Settings.Default.setNTRIP_isOn;
                     isRadio_RequiredOn = Properties.Settings.Default.setRadio_isOn;
-                    lblWatch.Text = "Waiting";
+                    lblWatch.Text = gStr.gsWaiting;
                 }
             }
             else
             {
-                TimedMessageBox(2000, "Turn on NTRIP", "NTRIP Client Not Set Up");
+                TimedMessageBox(2000,gStr.gsTurnOnNTRIP, gStr.gsNTRIPClientNotConfig);
             }
         }
 

@@ -31,7 +31,7 @@ namespace AgIO
         {
             this.labelName = new System.Windows.Forms.Label();
             this.tbName = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelFrequency = new System.Windows.Forms.Label();
             this.tbFrequency = new System.Windows.Forms.TextBox();
             this.labelLat = new System.Windows.Forms.Label();
             this.tbLat = new System.Windows.Forms.TextBox();
@@ -50,7 +50,7 @@ namespace AgIO
             this.labelName.Name = "labelName";
             this.labelName.Size = new System.Drawing.Size(35, 13);
             this.labelName.TabIndex = 7;
-            this.labelName.Text = "Name";
+            this.labelName.Text = gStr.gsName;
             // 
             // tbName
             // 
@@ -63,14 +63,14 @@ namespace AgIO
             this.tbName.TabIndex = 1;
             this.tbName.Click += new System.EventHandler(this.tbox_Click);
             // 
-            // label1
+            // labelFrequency
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 87);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Frequency";
+            this.labelFrequency.AutoSize = true;
+            this.labelFrequency.Location = new System.Drawing.Point(7, 87);
+            this.labelFrequency.Name = "labelFrequency";
+            this.labelFrequency.Size = new System.Drawing.Size(57, 13);
+            this.labelFrequency.TabIndex = 8;
+            this.labelFrequency.Text =gStr.gsFrequency;
             // 
             // tbFrequency
             // 
@@ -90,7 +90,7 @@ namespace AgIO
             this.labelLat.Name = "labelLat";
             this.labelLat.Size = new System.Drawing.Size(45, 13);
             this.labelLat.TabIndex = 9;
-            this.labelLat.Text = "Latitude";
+            this.labelLat.Text = gStr.gsLongitude;
             // 
             // tbLat
             // 
@@ -173,7 +173,7 @@ namespace AgIO
             this.labelLon.Name = "labelLon";
             this.labelLon.Size = new System.Drawing.Size(54, 13);
             this.labelLon.TabIndex = 11;
-            this.labelLon.Text = "Longitude";
+            this.labelLon.Text = gStr.gsLongitude;
             // 
             // FormRadioChannel
             // 
@@ -190,13 +190,13 @@ namespace AgIO
             this.Controls.Add(this.tbLat);
             this.Controls.Add(this.labelLat);
             this.Controls.Add(this.tbFrequency);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelFrequency);
             this.Controls.Add(this.tbName);
             this.Controls.Add(this.labelName);
             this.MinimumSize = new System.Drawing.Size(16, 240);
             this.Name = "FormRadioChannel";
             this.ShowIcon = false;
-            this.Text = "Radio Channel";
+            this.Text =gStr.gsRadioChannel;
             this.Load += new System.EventHandler(this.FormRadioChannel_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -207,7 +207,7 @@ namespace AgIO
 
         private System.Windows.Forms.Label labelName;
         private System.Windows.Forms.TextBox tbName;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelFrequency;
         private System.Windows.Forms.TextBox tbFrequency;
         private System.Windows.Forms.Label labelLat;
         private System.Windows.Forms.TextBox tbLat;

@@ -20,6 +20,20 @@ namespace AgIO
 
         private void FormRadioChannel_Load(object sender, EventArgs e)
         {
+
+            // Create the ToolTip and associate with the form container.
+            ToolTip toolTip1 = new ToolTip();
+            // Set tooltip default parameters
+            toolTip1.AutoPopDelay = 5000;
+            toolTip1.InitialDelay = 1000;
+            toolTip1.ReshowDelay = 500;
+            toolTip1.ShowAlways = false;
+            toolTip1.Active = true;
+
+            // set tooltip values on related controls
+            toolTip1.SetToolTip(this.btnSerialCancel, gStr.gsCancel);
+            toolTip1.SetToolTip(this.btnSerialOK, gStr.gsClose);
+
             tbId.Text = Channel.Id.ToString();
             tbName.Text = Channel.Name;
             tbFrequency.Text = Channel.Frequency;
@@ -40,21 +54,21 @@ namespace AgIO
         {
             if(!int.TryParse(tbId.Text, out int channelId))
             {
-                mf.TimedMessageBox(2000, "Invalid Id", $"Id '{tbId.Text}' is not a valid number");
+                mf.TimedMessageBox(2000, gStr.gsInvalid + " Id", "Id " + tbId.Text + gStr.gsNotValidNumber);
                 DialogResult = DialogResult.None;
                 return;
             }
 
             if (string.IsNullOrEmpty(tbName.Text))
             {
-                mf.TimedMessageBox(2000, "Invalid Name", $"Name is not filled in");
+                mf.TimedMessageBox(2000, gStr.gsInvalidName, gStr.gsName + " " + gStr.gsNotFilled);
                 DialogResult = DialogResult.None;
                 return;
             }
 
             if (string.IsNullOrEmpty(tbFrequency.Text))
             {
-                mf.TimedMessageBox(2000, "Invalid Frequency", $"Frequency is not filled in");
+                mf.TimedMessageBox(2000, gStr.gsInvalid + " " + gStr.gsFrequency, gStr.gsFrequency + " " + gStr.gsFrequency);
                 DialogResult = DialogResult.None;
                 return;
             }

@@ -31,46 +31,46 @@
             this.components = new System.ComponentModel.Container();
             this.tboxCasterIP = new System.Windows.Forms.TextBox();
             this.nudCasterPort = new System.Windows.Forms.NumericUpDown();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelPort = new System.Windows.Forms.Label();
+            this.labelIP2 = new System.Windows.Forms.Label();
+            this.labelBroadcaster = new System.Windows.Forms.Label();
             this.tboxHostName = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
+            this.labelHost = new System.Windows.Forms.Label();
             this.tboxThisIP = new System.Windows.Forms.TextBox();
             this.nudSendToUDPPort = new System.Windows.Forms.NumericUpDown();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.labelIP = new System.Windows.Forms.Label();
+            this.labelUDPPort = new System.Windows.Forms.Label();
             this.tboxUserName = new System.Windows.Forms.TextBox();
             this.tboxUserPassword = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.labelUsername = new System.Windows.Forms.Label();
+            this.labelPassword = new System.Windows.Forms.Label();
+            this.labelMount = new System.Windows.Forms.Label();
             this.tboxMount = new System.Windows.Forms.TextBox();
             this.nudGGAInterval = new System.Windows.Forms.NumericUpDown();
-            this.label15 = new System.Windows.Forms.Label();
+            this.labelGGAInterval = new System.Windows.Forms.Label();
             this.tboxEnterURL = new System.Windows.Forms.TextBox();
             this.btnGetIP = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.labelMFLat = new System.Windows.Forms.Label();
+            this.labelMFLon = new System.Windows.Forms.Label();
             this.nudLatitude = new System.Windows.Forms.NumericUpDown();
             this.nudLongitude = new System.Windows.Forms.NumericUpDown();
             this.tboxCurrentLat = new System.Windows.Forms.TextBox();
             this.tboxCurrentLon = new System.Windows.Forms.TextBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label9 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.labelCurrentGPS = new System.Windows.Forms.Label();
+            this.labelCFLat = new System.Windows.Forms.Label();
+            this.labelCFLon = new System.Windows.Forms.Label();
+            this.labelManualFix = new System.Windows.Forms.Label();
+            this.labelSet0ForSerial = new System.Windows.Forms.Label();
             this.btnGetSourceTable = new System.Windows.Forms.Button();
             this.btnSetManualPosition = new System.Windows.Forms.Button();
             this.cboxGGAManual = new System.Windows.Forms.ComboBox();
-            this.label19 = new System.Windows.Forms.Label();
+            this.label0Off = new System.Windows.Forms.Label();
             this.checkBoxusetcp = new System.Windows.Forms.CheckBox();
             this.btnPassUsername = new System.Windows.Forms.Button();
             this.btnPassPassword = new System.Windows.Forms.Button();
             this.cboxHTTP = new System.Windows.Forms.ComboBox();
-            this.label20 = new System.Windows.Forms.Label();
+            this.labelHTTP = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -124,35 +124,35 @@
             0});
             this.nudCasterPort.Enter += new System.EventHandler(this.NudCasterPort_Enter);
             // 
-            // label6
+            // labelPort
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(437, 144);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 25);
-            this.label6.TabIndex = 81;
-            this.label6.Text = "Port:";
+            this.labelPort.AutoSize = true;
+            this.labelPort.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPort.Location = new System.Drawing.Point(437, 144);
+            this.labelPort.Name = "labelPort";
+            this.labelPort.Size = new System.Drawing.Size(57, 25);
+            this.labelPort.TabIndex = 81;
+            this.labelPort.Text = "Port:";
             // 
-            // label5
+            // labelIP2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(4, 284);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(39, 25);
-            this.label5.TabIndex = 82;
-            this.label5.Text = "IP:";
+            this.labelIP2.AutoSize = true;
+            this.labelIP2.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIP2.Location = new System.Drawing.Point(4, 284);
+            this.labelIP2.Name = "labelIP2";
+            this.labelIP2.Size = new System.Drawing.Size(39, 25);
+            this.labelIP2.TabIndex = 82;
+            this.labelIP2.Text = "IP:";
             // 
-            // label4
+            // labelBroadcaster
             // 
-            this.label4.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(5, 113);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(334, 56);
-            this.label4.TabIndex = 83;
-            this.label4.Text = "Enter Broadcaster URL or IP ";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.labelBroadcaster.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelBroadcaster.Location = new System.Drawing.Point(5, 113);
+            this.labelBroadcaster.Name = "labelBroadcaster";
+            this.labelBroadcaster.Size = new System.Drawing.Size(334, 56);
+            this.labelBroadcaster.TabIndex = 83;
+            this.labelBroadcaster.Text = gStr.gsEnterBroadcasterURLorIP;
+            this.labelBroadcaster.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // tboxHostName
             // 
@@ -164,15 +164,15 @@
             this.tboxHostName.TabIndex = 86;
             this.tboxHostName.Text = "HostName";
             // 
-            // label14
+            // labelHost
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(0, 17);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(47, 23);
-            this.label14.TabIndex = 85;
-            this.label14.Text = "Host";
+            this.labelHost.AutoSize = true;
+            this.labelHost.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelHost.Location = new System.Drawing.Point(0, 17);
+            this.labelHost.Name = "labelHost";
+            this.labelHost.Size = new System.Drawing.Size(47, 23);
+            this.labelHost.TabIndex = 85;
+            this.labelHost.Text = gStr.gsHost;
             // 
             // tboxThisIP
             // 
@@ -205,25 +205,25 @@
             0});
             this.nudSendToUDPPort.Enter += new System.EventHandler(this.NudSendToUDPPort_Enter);
             // 
-            // label10
+            // labelIP
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(20, 48);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(27, 23);
-            this.label10.TabIndex = 76;
-            this.label10.Text = "IP";
+            this.labelIP.AutoSize = true;
+            this.labelIP.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIP.Location = new System.Drawing.Point(20, 48);
+            this.labelIP.Name = "labelIP";
+            this.labelIP.Size = new System.Drawing.Size(27, 23);
+            this.labelIP.TabIndex = 76;
+            this.labelIP.Text = "IP";
             // 
-            // label7
+            // labelUDPPort
             // 
-            this.label7.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(420, 62);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(180, 31);
-            this.label7.TabIndex = 99;
-            this.label7.Text = "To UDP Port";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.labelUDPPort.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelUDPPort.Location = new System.Drawing.Point(420, 62);
+            this.labelUDPPort.Name = "labelUDPPort";
+            this.labelUDPPort.Size = new System.Drawing.Size(180, 31);
+            this.labelUDPPort.TabIndex = 99;
+            this.labelUDPPort.Text = "To UDP Port";
+            this.labelUDPPort.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // tboxUserName
             // 
@@ -247,35 +247,35 @@
             this.tboxUserPassword.TabIndex = 101;
             this.tboxUserPassword.Click += new System.EventHandler(this.tboxUserPassword_Click);
             // 
-            // label3
+            // labelUsername
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(404, 235);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 25);
-            this.label3.TabIndex = 102;
-            this.label3.Text = "Username";
+            this.labelUsername.AutoSize = true;
+            this.labelUsername.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelUsername.Location = new System.Drawing.Point(404, 235);
+            this.labelUsername.Name = "labelUsername";
+            this.labelUsername.Size = new System.Drawing.Size(106, 25);
+            this.labelUsername.TabIndex = 102;
+            this.labelUsername.Text = gStr.gsUsername;
             // 
-            // label12
+            // labelPassword
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(404, 306);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(100, 25);
-            this.label12.TabIndex = 103;
-            this.label12.Text = "Password";
+            this.labelPassword.AutoSize = true;
+            this.labelPassword.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPassword.Location = new System.Drawing.Point(404, 306);
+            this.labelPassword.Name = "labelPassword";
+            this.labelPassword.Size = new System.Drawing.Size(100, 25);
+            this.labelPassword.TabIndex = 103;
+            this.labelPassword.Text = gStr.gsPassword;
             // 
-            // label13
+            // labelMount
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(386, 54);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(70, 25);
-            this.label13.TabIndex = 105;
-            this.label13.Text = "Mount";
+            this.labelMount.AutoSize = true;
+            this.labelMount.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMount.Location = new System.Drawing.Point(386, 54);
+            this.labelMount.Name = "labelMount";
+            this.labelMount.Size = new System.Drawing.Size(70, 25);
+            this.labelMount.TabIndex = 105;
+            this.labelMount.Text = gStr.gsMount;
             // 
             // tboxMount
             // 
@@ -308,15 +308,15 @@
             0});
             this.nudGGAInterval.Enter += new System.EventHandler(this.NudGGAInterval_Enter);
             // 
-            // label15
+            // labelGGAInterval
             // 
-            this.label15.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(410, 208);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(196, 33);
-            this.label15.TabIndex = 107;
-            this.label15.Text = "GGA Interval (secs)";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.labelGGAInterval.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelGGAInterval.Location = new System.Drawing.Point(410, 208);
+            this.labelGGAInterval.Name = "labelGGAInterval";
+            this.labelGGAInterval.Size = new System.Drawing.Size(196, 33);
+            this.labelGGAInterval.TabIndex = 107;
+            this.labelGGAInterval.Text = "GGA Interval (secs)";
+            this.labelGGAInterval.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // tboxEnterURL
             // 
@@ -337,29 +337,29 @@
             this.btnGetIP.Name = "btnGetIP";
             this.btnGetIP.Size = new System.Drawing.Size(157, 40);
             this.btnGetIP.TabIndex = 109;
-            this.btnGetIP.Text = "Confirm IP";
+            this.btnGetIP.Text = global::AgIO.gStr.gsConfirmIP;
             this.btnGetIP.UseVisualStyleBackColor = false;
             this.btnGetIP.Click += new System.EventHandler(this.btnGetIP_Click);
             // 
-            // label2
+            // labelMFLat
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(11, 44);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 23);
-            this.label2.TabIndex = 115;
-            this.label2.Text = "Lat:";
+            this.labelMFLat.AutoSize = true;
+            this.labelMFLat.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMFLat.Location = new System.Drawing.Point(11, 44);
+            this.labelMFLat.Name = "labelMFLat";
+            this.labelMFLat.Size = new System.Drawing.Size(42, 23);
+            this.labelMFLat.TabIndex = 115;
+            this.labelMFLat.Text = "Lat:";
             // 
-            // label8
+            // labelMFLon
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(6, 99);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(47, 23);
-            this.label8.TabIndex = 116;
-            this.label8.Text = "Lon:";
+            this.labelMFLon.AutoSize = true;
+            this.labelMFLon.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMFLon.Location = new System.Drawing.Point(6, 99);
+            this.labelMFLon.Name = "labelMFLon";
+            this.labelMFLon.Size = new System.Drawing.Size(47, 23);
+            this.labelMFLon.TabIndex = 116;
+            this.labelMFLon.Text = "Lon:";
             // 
             // nudLatitude
             // 
@@ -449,55 +449,55 @@
             this.timer1.Interval = 500;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // label9
+            // labelCurrentGPS
             // 
-            this.label9.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(20, 205);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(319, 32);
-            this.label9.TabIndex = 122;
-            this.label9.Text = "Current GPS Fix:";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.labelCurrentGPS.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCurrentGPS.Location = new System.Drawing.Point(20, 205);
+            this.labelCurrentGPS.Name = "labelCurrentGPS";
+            this.labelCurrentGPS.Size = new System.Drawing.Size(319, 32);
+            this.labelCurrentGPS.TabIndex = 122;
+            this.labelCurrentGPS.Text = gStr.gsCurrentGPSfix +":";
+            this.labelCurrentGPS.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // label11
+            // labelCFLat
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(16, 248);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(42, 23);
-            this.label11.TabIndex = 123;
-            this.label11.Text = "Lat:";
+            this.labelCFLat.AutoSize = true;
+            this.labelCFLat.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCFLat.Location = new System.Drawing.Point(16, 248);
+            this.labelCFLat.Name = "labelCFLat";
+            this.labelCFLat.Size = new System.Drawing.Size(42, 23);
+            this.labelCFLat.TabIndex = 123;
+            this.labelCFLat.Text = "Lat:";
             // 
-            // label16
+            // labelCFLon
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(11, 294);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(47, 23);
-            this.label16.TabIndex = 124;
-            this.label16.Text = "Lon:";
+            this.labelCFLon.AutoSize = true;
+            this.labelCFLon.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCFLon.Location = new System.Drawing.Point(11, 294);
+            this.labelCFLon.Name = "labelCFLon";
+            this.labelCFLon.Size = new System.Drawing.Size(47, 23);
+            this.labelCFLon.TabIndex = 124;
+            this.labelCFLon.Text = "Lon:";
             // 
-            // label17
+            // labelManualFix
             // 
-            this.label17.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(33, 8);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(269, 30);
-            this.label17.TabIndex = 125;
-            this.label17.Text = "Manual Fix:";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.labelManualFix.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelManualFix.Location = new System.Drawing.Point(33, 8);
+            this.labelManualFix.Name = "labelManualFix";
+            this.labelManualFix.Size = new System.Drawing.Size(269, 30);
+            this.labelManualFix.TabIndex = 125;
+            this.labelManualFix.Text =gStr.gsManualfix + ":";
+            this.labelManualFix.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // label18
+            // labelSet0ForSerial
             // 
-            this.label18.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(421, 147);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(191, 36);
-            this.label18.TabIndex = 126;
-            this.label18.Text = "*Set to 0 for Serial";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.labelSet0ForSerial.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSet0ForSerial.Location = new System.Drawing.Point(421, 147);
+            this.labelSet0ForSerial.Name = "labelSet0ForSerial";
+            this.labelSet0ForSerial.Size = new System.Drawing.Size(191, 36);
+            this.labelSet0ForSerial.TabIndex = 126;
+            this.labelSet0ForSerial.Text = gStr.gsSet0Serial;
+            this.labelSet0ForSerial.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // btnGetSourceTable
             // 
@@ -507,7 +507,7 @@
             this.btnGetSourceTable.Name = "btnGetSourceTable";
             this.btnGetSourceTable.Size = new System.Drawing.Size(235, 37);
             this.btnGetSourceTable.TabIndex = 127;
-            this.btnGetSourceTable.Text = "Get Source Table";
+            this.btnGetSourceTable.Text = global::AgIO.gStr.gsGetSourceTable;
             this.btnGetSourceTable.UseVisualStyleBackColor = false;
             this.btnGetSourceTable.Click += new System.EventHandler(this.btnGetSourceTable_Click);
             // 
@@ -518,7 +518,7 @@
             this.btnSetManualPosition.Name = "btnSetManualPosition";
             this.btnSetManualPosition.Size = new System.Drawing.Size(225, 37);
             this.btnSetManualPosition.TabIndex = 121;
-            this.btnSetManualPosition.Text = "Send To Manual Fix";
+            this.btnSetManualPosition.Text = global::AgIO.gStr.gsSendtoManualFix;
             this.btnSetManualPosition.UseVisualStyleBackColor = true;
             this.btnSetManualPosition.Click += new System.EventHandler(this.btnSetManualPosition_Click);
             // 
@@ -529,22 +529,22 @@
             this.cboxGGAManual.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboxGGAManual.FormattingEnabled = true;
             this.cboxGGAManual.Items.AddRange(new object[] {
-            "Use Manual Fix",
-            "Use GPS Fix"});
+            global::AgIO.gStr.gsUseManualFix,
+            global::AgIO.gStr.gsUseGPSFix});
             this.cboxGGAManual.Location = new System.Drawing.Point(64, 152);
             this.cboxGGAManual.Name = "cboxGGAManual";
             this.cboxGGAManual.Size = new System.Drawing.Size(192, 33);
             this.cboxGGAManual.TabIndex = 128;
             // 
-            // label19
+            // label0Off
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(563, 256);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(81, 25);
-            this.label19.TabIndex = 131;
-            this.label19.Text = "0 = Off";
+            this.label0Off.AutoSize = true;
+            this.label0Off.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label0Off.Location = new System.Drawing.Point(563, 256);
+            this.label0Off.Name = "label0Off";
+            this.label0Off.Size = new System.Drawing.Size(81, 25);
+            this.label0Off.TabIndex = 131;
+            this.label0Off.Text = gStr.gs0Off;
             // 
             // checkBoxusetcp
             // 
@@ -556,7 +556,7 @@
             this.checkBoxusetcp.Name = "checkBoxusetcp";
             this.checkBoxusetcp.Size = new System.Drawing.Size(129, 41);
             this.checkBoxusetcp.TabIndex = 132;
-            this.checkBoxusetcp.Text = "Only TCP:Port";
+            this.checkBoxusetcp.Text = gStr.gsOnlyTCPPort;
             this.checkBoxusetcp.UseVisualStyleBackColor = true;
             // 
             // btnPassUsername
@@ -595,15 +595,15 @@
             this.cboxHTTP.Size = new System.Drawing.Size(80, 33);
             this.cboxHTTP.TabIndex = 135;
             // 
-            // label20
+            // labelHTTP
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(241, 258);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(62, 23);
-            this.label20.TabIndex = 136;
-            this.label20.Text = "HTTP:";
+            this.labelHTTP.AutoSize = true;
+            this.labelHTTP.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelHTTP.Location = new System.Drawing.Point(241, 258);
+            this.labelHTTP.Name = "labelHTTP";
+            this.labelHTTP.Size = new System.Drawing.Size(62, 23);
+            this.labelHTTP.TabIndex = 136;
+            this.labelHTTP.Text = "HTTP:";
             // 
             // tabControl1
             // 
@@ -623,53 +623,53 @@
             this.tabPage1.BackColor = System.Drawing.Color.Azure;
             this.tabPage1.Controls.Add(this.tboxUserPassword);
             this.tabPage1.Controls.Add(this.btnGetSourceTable);
-            this.tabPage1.Controls.Add(this.label20);
-            this.tabPage1.Controls.Add(this.label13);
+            this.tabPage1.Controls.Add(this.labelHTTP);
+            this.tabPage1.Controls.Add(this.labelMount);
             this.tabPage1.Controls.Add(this.tboxUserName);
             this.tabPage1.Controls.Add(this.tboxMount);
             this.tabPage1.Controls.Add(this.cboxHTTP);
-            this.tabPage1.Controls.Add(this.label3);
+            this.tabPage1.Controls.Add(this.labelUsername);
             this.tabPage1.Controls.Add(this.checkBoxusetcp);
             this.tabPage1.Controls.Add(this.btnPassPassword);
-            this.tabPage1.Controls.Add(this.label12);
+            this.tabPage1.Controls.Add(this.labelPassword);
             this.tabPage1.Controls.Add(this.btnPassUsername);
             this.tabPage1.Controls.Add(this.btnGetIP);
             this.tabPage1.Controls.Add(this.tboxCasterIP);
             this.tabPage1.Controls.Add(this.tboxEnterURL);
             this.tabPage1.Controls.Add(this.nudCasterPort);
-            this.tabPage1.Controls.Add(this.label6);
-            this.tabPage1.Controls.Add(this.label4);
-            this.tabPage1.Controls.Add(this.label5);
-            this.tabPage1.Controls.Add(this.label10);
+            this.tabPage1.Controls.Add(this.labelPort);
+            this.tabPage1.Controls.Add(this.labelBroadcaster);
+            this.tabPage1.Controls.Add(this.labelIP2);
+            this.tabPage1.Controls.Add(this.labelIP);
             this.tabPage1.Controls.Add(this.tboxThisIP);
-            this.tabPage1.Controls.Add(this.label14);
+            this.tabPage1.Controls.Add(this.labelHost);
             this.tabPage1.Controls.Add(this.tboxHostName);
             this.tabPage1.Location = new System.Drawing.Point(4, 44);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(733, 397);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Source";
+            this.tabPage1.Text = global::AgIO.gStr.gsSource;
             // 
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Azure;
-            this.tabPage2.Controls.Add(this.label7);
+            this.tabPage2.Controls.Add(this.labelUDPPort);
             this.tabPage2.Controls.Add(this.nudSendToUDPPort);
-            this.tabPage2.Controls.Add(this.label19);
-            this.tabPage2.Controls.Add(this.label18);
-            this.tabPage2.Controls.Add(this.label9);
-            this.tabPage2.Controls.Add(this.label15);
-            this.tabPage2.Controls.Add(this.label2);
+            this.tabPage2.Controls.Add(this.label0Off);
+            this.tabPage2.Controls.Add(this.labelSet0ForSerial);
+            this.tabPage2.Controls.Add(this.labelCurrentGPS);
+            this.tabPage2.Controls.Add(this.labelGGAInterval);
+            this.tabPage2.Controls.Add(this.labelMFLat);
             this.tabPage2.Controls.Add(this.nudGGAInterval);
             this.tabPage2.Controls.Add(this.cboxGGAManual);
-            this.tabPage2.Controls.Add(this.label8);
+            this.tabPage2.Controls.Add(this.labelMFLon);
             this.tabPage2.Controls.Add(this.nudLongitude);
-            this.tabPage2.Controls.Add(this.label17);
+            this.tabPage2.Controls.Add(this.labelManualFix);
             this.tabPage2.Controls.Add(this.nudLatitude);
-            this.tabPage2.Controls.Add(this.label16);
+            this.tabPage2.Controls.Add(this.labelCFLon);
             this.tabPage2.Controls.Add(this.tboxCurrentLat);
-            this.tabPage2.Controls.Add(this.label11);
+            this.tabPage2.Controls.Add(this.labelCFLat);
             this.tabPage2.Controls.Add(this.tboxCurrentLon);
             this.tabPage2.Controls.Add(this.btnSetManualPosition);
             this.tabPage2.Location = new System.Drawing.Point(4, 44);
@@ -677,7 +677,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(733, 397);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Position";
+            this.tabPage2.Text = global::AgIO.gStr.gsPosition;
             // 
             // cboxIsNTRIPOn
             // 
@@ -767,48 +767,48 @@
         private System.Windows.Forms.CheckBox cboxIsNTRIPOn;
         private System.Windows.Forms.TextBox tboxCasterIP;
         private System.Windows.Forms.NumericUpDown nudCasterPort;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelPort;
+        private System.Windows.Forms.Label labelIP2;
+        private System.Windows.Forms.Label labelBroadcaster;
         private System.Windows.Forms.TextBox tboxHostName;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label labelHost;
         private System.Windows.Forms.TextBox tboxThisIP;
         private System.Windows.Forms.NumericUpDown nudSendToUDPPort;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label labelIP;
         private System.Windows.Forms.Button btnSerialCancel;
         private System.Windows.Forms.Button btnSerialOK;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label labelUDPPort;
         private System.Windows.Forms.TextBox tboxUserName;
         private System.Windows.Forms.TextBox tboxUserPassword;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label labelUsername;
+        private System.Windows.Forms.Label labelPassword;
+        private System.Windows.Forms.Label labelMount;
         private System.Windows.Forms.NumericUpDown nudGGAInterval;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label labelGGAInterval;
         private System.Windows.Forms.TextBox tboxEnterURL;
         private System.Windows.Forms.Button btnGetIP;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label labelMFLat;
+        private System.Windows.Forms.Label labelMFLon;
         private System.Windows.Forms.NumericUpDown nudLatitude;
         private System.Windows.Forms.NumericUpDown nudLongitude;
         private System.Windows.Forms.TextBox tboxCurrentLat;
         private System.Windows.Forms.TextBox tboxCurrentLon;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label labelCurrentGPS;
+        private System.Windows.Forms.Label labelCFLat;
+        private System.Windows.Forms.Label labelCFLon;
+        private System.Windows.Forms.Label labelManualFix;
+        private System.Windows.Forms.Label labelSet0ForSerial;
         private System.Windows.Forms.Button btnGetSourceTable;
         private System.Windows.Forms.Button btnSetManualPosition;
         private System.Windows.Forms.ComboBox cboxGGAManual;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label0Off;
         private System.Windows.Forms.CheckBox checkBoxusetcp;
         public System.Windows.Forms.TextBox tboxMount;
         private System.Windows.Forms.Button btnPassUsername;
         private System.Windows.Forms.Button btnPassPassword;
         private System.Windows.Forms.ComboBox cboxHTTP;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label labelHTTP;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;

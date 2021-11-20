@@ -38,6 +38,7 @@ namespace AgIO
             this.columnHeaderId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeaderName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeaderFreq = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderDist = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tbCommand = new System.Windows.Forms.TextBox();
             this.lblCommand = new System.Windows.Forms.Label();
             this.tbResponse = new System.Windows.Forms.TextBox();
@@ -46,7 +47,7 @@ namespace AgIO
             this.btnEditChannel = new System.Windows.Forms.Button();
             this.btnDeleteChannel = new System.Windows.Forms.Button();
             this.btnSetChannel = new System.Windows.Forms.Button();
-            this.btnRescan = new System.Windows.Forms.Button();
+            this.btnRescanPorts = new System.Windows.Forms.Button();
             this.btnCloseSerial = new System.Windows.Forms.Button();
             this.btnOpenSerial = new System.Windows.Forms.Button();
             this.btnRadioCancel = new System.Windows.Forms.Button();
@@ -54,7 +55,6 @@ namespace AgIO
             this.btnSendCommand = new System.Windows.Forms.Button();
             this.btnAddChannel = new System.Windows.Forms.Button();
             this.labelChannels = new System.Windows.Forms.Label();
-            this.columnHeaderDist = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // cboxRadioPort
@@ -138,13 +138,18 @@ namespace AgIO
             // 
             // columnHeaderName
             // 
-            this.columnHeaderName.Text = "Name";
+            this.columnHeaderName.Text = gStr.gsName;
             this.columnHeaderName.Width = 189;
             // 
             // columnHeaderFreq
             // 
-            this.columnHeaderFreq.Text = "Frequency";
+            this.columnHeaderFreq.Text = gStr.gsFrequency;
             this.columnHeaderFreq.Width = 220;
+            // 
+            // columnHeaderDist
+            // 
+            this.columnHeaderDist.Text = gStr.gsDistance;
+            this.columnHeaderDist.Width = 133;
             // 
             // tbCommand
             // 
@@ -166,7 +171,7 @@ namespace AgIO
             this.lblCommand.Name = "lblCommand";
             this.lblCommand.Size = new System.Drawing.Size(80, 18);
             this.lblCommand.TabIndex = 108;
-            this.lblCommand.Text = "Command";
+            this.lblCommand.Text =gStr.gsCommand;
             // 
             // tbResponse
             // 
@@ -188,7 +193,7 @@ namespace AgIO
             this.lbResponse.Name = "lbResponse";
             this.lbResponse.Size = new System.Drawing.Size(80, 18);
             this.lbResponse.TabIndex = 111;
-            this.lbResponse.Text = "Response";
+            this.lbResponse.Text = gStr.gsResponse;
             // 
             // cboxIsRadioOn
             // 
@@ -205,7 +210,7 @@ namespace AgIO
             this.cboxIsRadioOn.Name = "cboxIsRadioOn";
             this.cboxIsRadioOn.Size = new System.Drawing.Size(150, 50);
             this.cboxIsRadioOn.TabIndex = 112;
-            this.cboxIsRadioOn.Text = "Radio";
+            this.cboxIsRadioOn.Text = gStr.gsRadio;
             this.cboxIsRadioOn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.cboxIsRadioOn.UseVisualStyleBackColor = false;
             // 
@@ -254,22 +259,22 @@ namespace AgIO
             this.btnSetChannel.UseVisualStyleBackColor = true;
             this.btnSetChannel.Click += new System.EventHandler(this.btnSetChannel_Click);
             // 
-            // btnRescan
+            // btnRescanPorts
             // 
-            this.btnRescan.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRescan.BackColor = System.Drawing.Color.Transparent;
-            this.btnRescan.FlatAppearance.BorderSize = 0;
-            this.btnRescan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRescan.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRescan.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnRescan.Image = global::AgIO.Properties.Resources.ScanPorts;
-            this.btnRescan.Location = new System.Drawing.Point(757, 491);
-            this.btnRescan.Name = "btnRescan";
-            this.btnRescan.Size = new System.Drawing.Size(89, 63);
-            this.btnRescan.TabIndex = 105;
-            this.btnRescan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnRescan.UseVisualStyleBackColor = false;
-            this.btnRescan.Click += new System.EventHandler(this.btnRescan_Click);
+            this.btnRescanPorts.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRescanPorts.BackColor = System.Drawing.Color.Transparent;
+            this.btnRescanPorts.FlatAppearance.BorderSize = 0;
+            this.btnRescanPorts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRescanPorts.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRescanPorts.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnRescanPorts.Image = global::AgIO.Properties.Resources.ScanPorts;
+            this.btnRescanPorts.Location = new System.Drawing.Point(757, 491);
+            this.btnRescanPorts.Name = "btnRescanPorts";
+            this.btnRescanPorts.Size = new System.Drawing.Size(89, 63);
+            this.btnRescanPorts.TabIndex = 105;
+            this.btnRescanPorts.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnRescanPorts.UseVisualStyleBackColor = false;
+            this.btnRescanPorts.Click += new System.EventHandler(this.btnRescanPorts_Click);
             // 
             // btnCloseSerial
             // 
@@ -373,12 +378,7 @@ namespace AgIO
             this.labelChannels.Name = "labelChannels";
             this.labelChannels.Size = new System.Drawing.Size(76, 18);
             this.labelChannels.TabIndex = 115;
-            this.labelChannels.Text = "Channels";
-            // 
-            // columnHeaderDist
-            // 
-            this.columnHeaderDist.Text = "Distance";
-            this.columnHeaderDist.Width = 133;
+            this.labelChannels.Text = gStr.gsChannels;
             // 
             // FormRadio
             // 
@@ -396,7 +396,7 @@ namespace AgIO
             this.Controls.Add(this.lblCommand);
             this.Controls.Add(this.tbCommand);
             this.Controls.Add(this.btnSetChannel);
-            this.Controls.Add(this.btnRescan);
+            this.Controls.Add(this.btnRescanPorts);
             this.Controls.Add(this.lvChannels);
             this.Controls.Add(this.btnCloseSerial);
             this.Controls.Add(this.btnOpenSerial);
@@ -408,7 +408,7 @@ namespace AgIO
             this.Controls.Add(this.btnSendCommand);
             this.Controls.Add(this.lblCurrentPort);
             this.Name = "FormRadio";
-            this.Text = "Radio Settings";
+            this.Text = gStr.gsRadioSetting;
             this.Load += new System.EventHandler(this.FormRadio_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -429,7 +429,7 @@ namespace AgIO
         private System.Windows.Forms.ColumnHeader columnHeaderId;
         private System.Windows.Forms.ColumnHeader columnHeaderName;
         private System.Windows.Forms.ColumnHeader columnHeaderFreq;
-        private System.Windows.Forms.Button btnRescan;
+        private System.Windows.Forms.Button btnRescanPorts;
         private System.Windows.Forms.Button btnSetChannel;
         private System.Windows.Forms.TextBox tbCommand;
         private System.Windows.Forms.Label lblCommand;

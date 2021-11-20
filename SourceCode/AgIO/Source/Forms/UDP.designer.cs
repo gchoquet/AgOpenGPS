@@ -132,7 +132,7 @@ namespace AgIO
             }
             catch (Exception ex)
             {
-                //lblStatus.Text = "Error";
+                //lblStatus.Text = gStr.gsError;
                 MessageBox.Show("Load Error: " + ex.Message, "UDP Server", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }

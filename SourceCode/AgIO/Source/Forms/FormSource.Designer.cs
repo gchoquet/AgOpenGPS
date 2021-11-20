@@ -38,7 +38,7 @@
             this.tboxMount = new System.Windows.Forms.TextBox();
             this.lblCurrentAutoSteerPort = new System.Windows.Forms.Label();
             this.btnSite = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.btnUseMount = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -74,12 +74,12 @@
             // 
             // chDistance
             // 
-            this.chDistance.Text = "Distance";
+            this.chDistance.Text = gStr.gsDistance;
             this.chDistance.Width = 150;
             // 
             // chName
             // 
-            this.chName.Text = "Mount Point";
+            this.chName.Text = gStr.gsMountPoint;
             this.chName.Width = 250;
             // 
             // chLat
@@ -94,12 +94,12 @@
             // 
             // chFormat
             // 
-            this.chFormat.Text = "Format";
+            this.chFormat.Text =gStr.gsFormat;
             this.chFormat.Width = 150;
             // 
             // chNetwork
             // 
-            this.chNetwork.Text = "Network";
+            this.chNetwork.Text =gStr.gsNetwork;
             this.chNetwork.Width = 220;
             // 
             // tboxMount
@@ -139,19 +139,19 @@
             this.btnSite.UseVisualStyleBackColor = true;
             this.btnSite.Click += new System.EventHandler(this.btnSite_Click);
             // 
-            // button1
+            // btnCancel
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackgroundImage = global::AgIO.Properties.Resources.Cancel64;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(851, 538);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(157, 64);
-            this.button1.TabIndex = 101;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCancel.BackgroundImage = global::AgIO.Properties.Resources.Cancel64;
+            this.btnCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Location = new System.Drawing.Point(851, 538);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(157, 64);
+            this.btnCancel.TabIndex = 101;
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.butCancel_Click);
             // 
             // btnUseMount
             // 
@@ -172,7 +172,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1020, 610);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnUseMount);
             this.Controls.Add(this.btnSite);
             this.Controls.Add(this.lblCurrentAutoSteerPort);
@@ -181,7 +181,7 @@
             this.Name = "FormSource";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Source Data";
+            this.Text =gStr.gsSourceData;
             this.Load += new System.EventHandler(this.FormSource_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -199,7 +199,7 @@
         private System.Windows.Forms.Button btnSite;
         private System.Windows.Forms.ColumnHeader chFormat;
         private System.Windows.Forms.ColumnHeader chNetwork;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnUseMount;
     }
 }

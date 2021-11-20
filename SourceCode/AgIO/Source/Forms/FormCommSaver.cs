@@ -24,7 +24,21 @@ namespace AgIO
 
         private void FormCommSaver_Load(object sender, EventArgs e)
         {
-            lblLast.Text = "Current " + mf.commFileName;
+            // Create the ToolTip and associate with the form container.
+            ToolTip toolTip1 = new ToolTip();
+            // Set tooltip default parameters
+            
+            toolTip1.AutoPopDelay = 5000;
+            toolTip1.InitialDelay = 1000;
+            toolTip1.ReshowDelay = 500;
+            toolTip1.ShowAlways = false;
+            toolTip1.Active = true;
+
+            // set tooltip values on related controls
+            toolTip1.SetToolTip(this.btnSave, gStr.gsSave);
+            toolTip1.SetToolTip(this.tboxName, gStr.gsName);
+
+            lblLast.Text = gStr.gsCurrent + " " + mf.commFileName;
             DirectoryInfo dinfo = new DirectoryInfo(mf.commDirectory);
             FileInfo[] Files = dinfo.GetFiles("*.xml");
 
@@ -42,7 +56,7 @@ namespace AgIO
         private void cboxVeh_SelectedIndexChanged(object sender, EventArgs e)
         {
             DialogResult result3 = MessageBox.Show(
-                "Overwrite: " + cboxEnv.SelectedItem.ToString() + ".xml",
+                gStr.gsOverwrite + ": " + cboxEnv.SelectedItem.ToString() + ".xml",
                 gStr.gsSaveAndReturn,
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question,

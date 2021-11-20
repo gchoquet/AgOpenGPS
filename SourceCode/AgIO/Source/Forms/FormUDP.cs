@@ -118,7 +118,7 @@ namespace AgIO
             {
                 tboxAutoSteerIP.Text = "127.0.0.1";
                 tboxAutoSteerIP.Focus();
-                mf.TimedMessageBox(2000, "Invalid IP Address", "Set to 198.162.1.255");
+                mf.TimedMessageBox(2000, gStr.gsInvalidIP, gStr.gsSetDefaultIP + " 198.162.1.255");
             }
         }
 
@@ -131,13 +131,14 @@ namespace AgIO
             }
         }
 
+
         //private void tboxRateMachineIP_Validating(object sender, CancelEventArgs e)
         //{
         //    if (!CheckIPValid(tboxRateMachineIP.Text))
         //    {
         //        tboxRateMachineIP.Text = "127.0.0.1";
         //        tboxRateMachineIP.Focus();
-        //        mf.TimedMessageBox(2000, "Invalid IP Address", "Set to Default Local 127.0.0.1");
+        //        mf.TimedMessageBox(2000, gStr.gsInvalidIP, gStr.gsSetDefaultIP + " 127.0.0.1");
         //    }
         //}
     }

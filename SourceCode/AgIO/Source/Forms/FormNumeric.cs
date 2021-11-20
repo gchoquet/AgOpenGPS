@@ -20,7 +20,7 @@ namespace AgIO
             min = _min;
             InitializeComponent();
 
-            this.Text = "Enter Value";
+            this.Text =gStr.gsEnterValue;
             //fill in the display
             tboxNumber.Text = currentValue.ToString();
 
@@ -46,7 +46,7 @@ namespace AgIO
             }
 
             //clear the error as user entered new values
-            if (tboxNumber.Text == "Error")
+            if (tboxNumber.Text == gStr.gsError)
             {
                 tboxNumber.Text = "";
                 lblMin.ForeColor = SystemColors.ControlText;
@@ -134,12 +134,12 @@ namespace AgIO
                 //test if above or below min/max
                 if (tryNumber < min)
                 {
-                    tboxNumber.Text = "Error";
+                    tboxNumber.Text = gStr.gsError;
                     lblMin.ForeColor = System.Drawing.Color.Red;
                 }
                 else if (tryNumber > max)
                 {
-                    tboxNumber.Text = "Error";
+                    tboxNumber.Text = gStr.gsError;
                     lblMax.ForeColor = System.Drawing.Color.Red;
                 }
                 else
@@ -159,7 +159,7 @@ namespace AgIO
 
         private void BtnDistanceUp_MouseDown(object sender, MouseEventArgs e)
         {
-            if (tboxNumber.Text == "" || tboxNumber.Text == "-" || tboxNumber.Text == "Error") tboxNumber.Text = "0";
+            if (tboxNumber.Text == "" || tboxNumber.Text == "-" || tboxNumber.Text == gStr.gsError) tboxNumber.Text = "0";
             double tryNumber = double.Parse(tboxNumber.Text, CultureInfo.CurrentCulture);
 
 
@@ -174,7 +174,7 @@ namespace AgIO
 
         private void BtnDistanceDn_MouseDown(object sender, MouseEventArgs e)
         {
-            if (tboxNumber.Text == "" || tboxNumber.Text == "-" || tboxNumber.Text == "Error") tboxNumber.Text = "0";
+            if (tboxNumber.Text == "" || tboxNumber.Text == "-" || tboxNumber.Text == gStr.gsError) tboxNumber.Text = "0";
             double tryNumber = double.Parse(tboxNumber.Text, CultureInfo.CurrentCulture);
 
             tryNumber--;

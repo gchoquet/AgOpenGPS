@@ -74,7 +74,7 @@
             this.Name = "FormTimedMessage";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Drive Message";
+            this.Text = gStr.gsDriveMessage;
             this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();

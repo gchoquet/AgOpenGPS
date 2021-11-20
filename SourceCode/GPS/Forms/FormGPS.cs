@@ -485,6 +485,11 @@ namespace AgOpenGPS
             udpWatch.Start();
         }
 
+        private void toolStripDropDownButton4_Click(object sender, EventArgs e)
+        {
+
+        }
+
         //form is closing so tidy up and save settings
         private void FormGPS_FormClosing(object sender, FormClosingEventArgs e)
         {

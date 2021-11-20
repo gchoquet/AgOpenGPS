@@ -20,7 +20,7 @@ namespace AgIO
             //btnCloseSerial.Text = gStr.gsDisconnect;
             //btnCloseSerialArduino.Text = gStr.gsDisconnect;
             //btnCloseSerialAutoSteer.Text = gStr.gsDisconnect;
-            //btnRescan.Text = gStr.gsRescanPorts;
+            //btnRescanPorts.Text = gStr.gsRescanPorts;
 
             //label3.Text = gStr.gsToAutoSteer;
             //label6.Text = gStr.gsFromAutoSteer;
@@ -40,6 +40,27 @@ namespace AgIO
 
         private void FormCommSet_Load(object sender, EventArgs e)
         {
+            // Create the ToolTip and associate with the form container.
+            ToolTip toolTip1 = new ToolTip();
+            // Set tooltip default parameters
+            toolTip1.AutoPopDelay = 5000;
+            toolTip1.InitialDelay = 1000;
+            toolTip1.ReshowDelay = 500;
+            toolTip1.ShowAlways = false;
+            toolTip1.Active = true;
+
+            // set tooltip values on related controls
+            toolTip1.SetToolTip(this.btnCloseIMU, gStr.gsCloseIMU);
+            toolTip1.SetToolTip(this.btnCloseSerial, gStr.gsCloseComs);
+            toolTip1.SetToolTip(this.btnCloseSerialModule1, gStr.gsCloseComs);
+            toolTip1.SetToolTip(this.btnCloseSerialModule2, gStr.gsCloseComs);
+            toolTip1.SetToolTip(this.btnOpenIMU, gStr.gsOpenComs);
+            toolTip1.SetToolTip(this.btnOpenSerial, gStr.gsOpenComs);
+            toolTip1.SetToolTip(this.btnOpenSerialModule1, gStr.gsOpenComs);
+            toolTip1.SetToolTip(this.btnOpenSerialModule2, gStr.gsOpenComs);
+            toolTip1.SetToolTip(this.btnRescanPorts, gStr.gsRescanPorts);
+            toolTip1.SetToolTip(this.btnSerialOK, gStr.gsClose);
+
             //check if GPS port is open or closed and set buttons accordingly
             if (mf.spGPS.IsOpen)
             {
@@ -306,7 +327,7 @@ namespace AgIO
             Close();
         }
 
-        private void btnRescan_Click(object sender, EventArgs e)
+        private void btnRescanPorts_Click(object sender, EventArgs e)
         {
             cboxPort.Items.Clear();
             cboxPort2.Items.Clear();

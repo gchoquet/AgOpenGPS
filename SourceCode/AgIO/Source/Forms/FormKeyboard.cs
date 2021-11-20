@@ -12,8 +12,7 @@ namespace AgIO
 
             InitializeComponent();
 
-            //this.Text = gStr.gsEnteraValue;
-            this.Text = "Enter Something";
+            this.Text = gStr.gsEnterSomething;
             //fill in the display
             keyboardString.Text = currentString.ToString();
         }
@@ -68,7 +67,7 @@ namespace AgIO
             //}
 
             //clear the error as user entered new values
-            if (keyboardString.Text == "Error")
+            if (keyboardString.Text == gStr.gsError)
             {
                 keyboardString.Text = "";
             }
